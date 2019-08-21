@@ -18,11 +18,11 @@ const Container = styled.footer`
 const Footer = () => {
   return (
     <Container>
-      <ButtonLink href="https://mobile.twitter.com/lewislbr" target="_blank">
+      <ButtonLink href="https://mobile.twitter.com/jenil_thakker" target="_blank">
         Twitter
       </ButtonLink>
       <ButtonLink
-        href="https://github.com/lewislbr/lewis-gatsby-starter-blog"
+        href="https://github.com/jenil04"
         target="_blank"
       >
         Github

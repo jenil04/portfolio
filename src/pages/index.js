@@ -53,10 +53,9 @@ const Home = ({ data }) => {
       <HeaderLogo />
       <Layout>
         <Hero>
-          <HeadingXL>Lewis Gatsby Starter Blog</HeadingXL>
+          <HeadingXL>Jenil Thakker</HeadingXL>
           <TextHome>
-            This is a custom Gatsby starter template to start a new blog or
-            personal website.
+            Welcome to my blog. I like to write about blockchain, and cryptocurrencies.
           </TextHome>
         </Hero>
         {data.allMarkdownRemark.edges.map(({ node }) => (

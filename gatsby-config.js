@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Lewis Gatsby Starter Blog`,
-    description: `A custom Gatsby starter template to start a blog or personal website.`,
-    author: `Lewis Llobera`,
-    twitter: `@lewislbr`,
-    email: `billobera@gmail.com`,
-    siteUrl: `https://lewis-gatsby-starter-blog.firebaseapp.com/`,
-    gitUrl: `https://github.com/lewislbr/lewis-gatsby-starter-blog`
+    title: `Jenil Thakker`,
+    description: `My personal website`,
+    author: `Jenil Thakker`,
+    twitter: `@jenil_thakker`,
+    email: `jenilkthakker@gmail.com`,
+    siteUrl: `https://jenilthakker.com/`,
+    gitUrl: `https://github.com/jenil04`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
