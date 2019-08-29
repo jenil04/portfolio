@@ -20,16 +20,16 @@ export default createGlobalStyle`
   }
 
   @font-face {
-    font-family: "IBMPlexMono";
-    src: url('${font.IBMPlexMono400}') format("woff2");
-    font-weight: 400;
+    font-family: "chivov11latin300";
+    src: url('${font.chivov11latin300}') format("woff2");
+    font-weight: 300;
     font-style: normal;
     font-display: block;
   }
 
   @font-face {
-    font-family: "IBMPlexMono";
-    src: url('${font.IBMPlexMono700}') format("woff2");
+    font-family: "chivov11latin700";
+    src: url('${font.chivov11latin700}') format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: block;
@@ -46,9 +46,9 @@ export default createGlobalStyle`
     padding-top: 20vh;
     line-height: 1;
     background-color: var(--light-color);
-    font-family: 'IBMPlexMono', sans-serif;
+    font-family: 'chivov11latin300';
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 300;
     color: var(--dark-color);
 
     @media (max-width: 849px) {
