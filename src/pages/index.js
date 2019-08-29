@@ -55,7 +55,7 @@ const Home = ({ data }) => {
         <Hero>
           <HeadingXL>Jenil Thakker</HeadingXL>
           <TextHome>
-            Welcome to my blog. I like to write about blockchain, and cryptocurrencies.
+            Compiling my research and readings on blockchain into this blog.  
           </TextHome>
         </Hero>
         {data.allMarkdownRemark.edges.map(({ node }) => (

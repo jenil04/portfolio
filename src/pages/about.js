@@ -1,5 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { Link } from 'gatsby';
+
 
 import {
   Button,
@@ -18,23 +20,15 @@ const About = ({ data }) => {
       <HeaderBack />
       <Layout>
         <HeadingXL>About</HeadingXL>
-        <Image fluid={data.RandomPhoto.childImageSharp.fluid} />
+        <Image fluid={data.jenil01.childImageSharp.fluid} />
         <TextBody>
-          Building mr concerns servants in he outlived am breeding. He so lain
-          good miss when sell some at if. Told hand so an rich gave next. How
-          doubt yet again see son smart. While mirth large of on front. Ye he
-          greater related adapted proceed entered an. Through it examine express
-          promise no. Past add size game cold girl off how old.
-          <br />
-          <br />
-          Bringing so sociable felicity supplied mr. September suspicion far him
-          two acuteness perfectly. Covered as an examine so regular of. Ye
-          astonished friendship remarkably no. Window admire matter praise you
-          bed whence. Delivered ye sportsmen zealously arranging frankness
-          estimable as. Nay any article enabled musical shyness yet sixteen yet
-          blushes. Entire its the did figure wonder off.
+          Hi 👋, I am Jenil. I recently graduated from San Jose State University with a degree in B.S Software Engineering. 
+          For the past 2 years, I've largely invested my time in research about blockchain and cryptocurrencies (you can find my recent publication  
+          <Link href='https://ieeexplore.ieee.org/document/8783004/'> here</Link>). Currently, I am working on a blockchain based certification project
+          aiming to eliminate physical credentials such as a diploma. I've also contributed to open-source freelance work on Gitcoin (<Link href='https://gitcoin.co/issue/ChainShot/Content/9/3147'>Introduction to Web3.js</Link>).
+          Primarily my tech stack involves using React, Node, Solidity, Go, and GraphQL. My previous projects can be found <Link href='github.com/jenil04'> here</Link>. 
         </TextBody>
-        <Button href="mailto:your&#64;email.com">Get in touch</Button>
+        <Button href="mailto:your&#64;email.com">Let's Connect</Button>
       </Layout>
     </>
   );
@@ -44,7 +38,7 @@ export default About;
 
 export const query = graphql`
   query {
-    RandomPhoto: file(relativePath: { eq: "RandomPhoto.jpg" }) {
+    jenil01: file(relativePath: { eq: "jenil01.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1400) {
           ...GatsbyImageSharpFluid_withWebp
