@@ -48,7 +48,7 @@ export default createGlobalStyle`
     background-color: var(--light-color);
     font-family: 'chivov11latin300';
     font-size: 19px;
-    font-weight: 300;
+    font-weight: 700;
     color: var(--dark-color);
 
     @media (max-width: 849px) {
