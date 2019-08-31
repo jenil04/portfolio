@@ -56,7 +56,7 @@ const Home = ({ data }) => {
         <Hero>
           <HeadingXL>Jenil Thakker</HeadingXL>
           <TextHome>
-            Compiling my research and readings on blockchain into this blog.  
+            Software Engineer at CyberBoss, Inc. Research on blockchain and cryptocurrencies @SJSUEngineering. 
           </TextHome>
         </Hero>
         {data.allMarkdownRemark.edges.map(({ node }) => (

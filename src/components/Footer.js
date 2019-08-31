@@ -20,7 +20,7 @@ const Footer = () => {
     <Container>
       <ButtonLink href="https://mobile.twitter.com/jenil_thakker" target="_blank">
         Twitter
-      </ButtonLink>
+        </ButtonLink>
       <ButtonLink
         href="https://github.com/jenil04"
         target="_blank"
