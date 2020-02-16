@@ -10,6 +10,6 @@ import Headings from "@narative/gatsby-theme-novela/src/components/Headings";
 
 export default function Logo() {
   return (
-    <Headings.h2>Jenil</Headings.h2>
+    <Headings.h2>Jenil Thakker</Headings.h2>
   );
 }
