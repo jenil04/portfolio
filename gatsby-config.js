@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://jenil.dev`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: ``,
+      heading: `Hi, I'm <a href="/About-Me">Jenil</a>. Welcome to my blog.`,
       maxWidth: 652,
     },
     social: [
@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/jenilthakker`,
+        url: `https://www.linkedin.com/in/jenilthakker/`,
       },
     ],
   },

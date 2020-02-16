@@ -1,12 +1,9 @@
 - name: Jenil Thakker
   bio: |
-    Research on crypto @SJSU. prev. blockchain developer @lukso
+    Research on crypto @SJSU. prev. My interests lie in blockchain, fintech and web development.
   avatar: ./avatars/dennis-brotzky.jpg
   social:
-    - url: https://unsplash.com
-    - url: https://stackoverflow.com
-    - url: https://github.com
-    - url: https://github.com
-    - url: https://github.com
+    - url: https://github.com/jenil04
+    - url: https://twitter.com/jenil_thakker
   featured: true
 
