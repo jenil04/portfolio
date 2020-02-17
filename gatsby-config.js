@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Jenil Thakker`,
+    title: `Jenil's Blog`,
     name: `Jenil Thakker`,
     siteUrl: `https://jenil.dev`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `Jenil's Blog`,
     hero: {
-      heading: `Hi, I'm <a href="/About-Me">Jenil</a>. Welcome to my blog.`,
+      heading: `Hi, I'm Jenil, read more about me <a href="/About-Me">here</a>.`,
       maxWidth: 652,
     },
     social: [
