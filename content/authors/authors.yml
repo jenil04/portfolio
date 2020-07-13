@@ -1,9 +1,0 @@
-- name: Jenil Thakker
-  bio: |
-    Blockchain developer @0chain. prev. full-stack dev @CertifyMe. My interests lie in blockchain, fintech and entrepreneurship.
-  avatar: ./avatars/jenil.JPG
-  social:
-    - url: https://github.com/jenil04
-    - url: https://twitter.com/jenil_thakker
-  featured: true
-
