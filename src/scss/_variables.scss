@@ -1,0 +1,50 @@
+// Colors
+$black: #2d2828;
+$lightGrey: rgba(0, 0, 0, 0.1);
+$darkGrey: rgba(0, 0, 0, 0.8);
+$primaryColor: #0027ec;
+
+// Transitions
+$transMed: 0.3s;
+
+// Typography
+$sansSerif: "Lato", sans-serif;
+$serif: "Playfair Display", serif;
+$mono: "IBM Plex Mono", monospace;
+$heavyWeight: 900;
+$regular: 400;
+$medium: 500;
+
+@font-face {
+  font-family: 'FontRegular';
+  src: url('./National2App-Regular.ttf') format('opentype');
+ }
+ @font-face {
+  font-family: 'FontBold';
+  src: url('./SoehneBreitApp-Fett.ttf') format('opentype');
+ }
+
+ @font-face {
+  font-display: fallback;
+  font-family: "Soehne";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./soehne-breit-web-fett.woff2") format("woff2"),
+    url("./soehne-breit-web-fett.woff") format("woff"),
+    url("./soehne-breit-web-fett.eot") format("embedded-opentype");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Soehne';
+}
+
+h1,
+h2,
+h3 {
+  font-weight: $regular;
+}

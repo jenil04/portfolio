@@ -1,66 +1,51 @@
-# daneden.me
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<p align="center">
+  <a href="https://bonneville.netlify.app">
+    <img alt="Bonneville Logo" src="/src/content/images/bonneville-logo.svg" width="200" />
+  </a>
+</p>
+<h1 align="center">
+  Bonneville - A Gatsby Starter Blog
+</h1>
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/daneden/daneden.me)
-![Check lint results](https://github.com/daneden/daneden.me/workflows/Check%20lint%20results/badge.svg)
+## Please Note
 
-Welcome to the innards of [my website](http://daneden.me). It’s built using
-[Next.js](http://nextjs.org/) and deployed on [Vercel](https://vercel.com/home).
+This repo is a WIP. Updates will happen throughout the life of this project as I understand working with Gatsby and React. If issues are raised, I will answer and resolve them when time allows.
 
-## Installation
+## 🚀 Quick start
 
-If you want to run this site locally:
+1.  **Create a Gatsby site.**
 
--   Make sure you have [Yarn](https://yarnpkg.com/en/) installed
--   `git clone https://github.com/daneden/daneden.me`
--   Run `yarn` to install dependencies
--   Run `yarn dev`
--   Party.
+    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
 
-To build for production, run `yarn build`.
+    ```sh
+    # create a new Gatsby site using Bonneville
+    gatsby new your-new-site-name https://github.com/bagseye/bonneville
+    ```
 
-## Interesting Things
+1.  **Start developing.**
 
-### `atoms.ts`
+    Navigate into your new site’s directory and start it up.
 
-[`atoms.ts`](https://github.com/daneden/daneden.me/blob/main/src/components/designSystem/atoms.ts)
-defines the atomic style values for the site's design system. This approach to
-defining design system styles is documented in my blog post,
-[Subatomic Design Systems](https://daneden.me/blog/2018/subatomic-design-systems).
+    ```sh
+    cd your-new-site-name/
+    gatsby develop
+    ```
 
-Many of the atoms are mirrored in CSS variables declared in
-[`Layout.tsx`](https://github.com/daneden/daneden.me/blob/main/src/components/Layout.tsx),
-but occasionally (such as in the
-[open graph image generator](#open-graph-image-generation)) need direct
-reference in JavaScript.
+1.  **Open the source code and start editing!**
 
-### Open Graph Image Generation
+    Your site is now running at `http://localhost:8000`!
 
-I wanted to be able to generate images for blog posts based on their titles. To
-achieve this, I have a
-[function](https://github.com/daneden/daneden.me/blob/main/src/utils/ogImage.ts)
-that runs at build time to generate OG images using `node-canvas`.
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-### Category Pages
+    Open the `your-new-site-name` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-Next.js allows dynamic path static generation via `getStaticPaths`. I'm using
-this in
-[`[category].tsx`](https://github.com/daneden/daneden.me/blob/main/pages/blog/%5Bcategory%5D.tsx)
-to generate pages for blog post categories.
+## 🎓 Learning Gatsby
 
-### `mdxUtils.ts`
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-[`mdxUtils.ts`](https://github.com/daneden/daneden.me/blob/main/src/utils/mdxUtils.ts)
-has some handy functions to co-locate things I want to do with my blog posts,
-including:
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
--   Getting all the blog posts and their front matter/metadata
--   Sorting by date and filtering out "hidden" posts
--   Keeping track of post categories
--   Getting posts by category
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-### `widont.ts`
-
-A personal favourite,
-[`widont.ts`](https://github.com/daneden/daneden.me/blob/main/src/utils/widont.ts)
-is a tiny function that replaces the last space in a string with a non-breaking
-space. Great for preventing widows on post titles.
+<!-- AUTO-GENERATED-CONTENT:END -->

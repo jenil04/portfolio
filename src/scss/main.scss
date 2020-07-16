@@ -1,0 +1,88 @@
+@import "./variables", "./content";
+
+@font-face {
+  font-family: 'FontRegular';
+  src: url('./Favorit-Regular.ttf') format('opentype');
+ }
+ @font-face {
+  font-family: 'FontBold';
+  src: url('./SoehneBreitApp-Fett.ttf') format('opentype');
+ }
+
+:root {
+  --heavyWeight: 900;
+  --transMed: 0.3s;
+  --black: #111;
+  --primaryColor: #939393;
+}
+
+body {
+  font-family: 'FontRegular';
+  color: $black;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.main-body {
+  padding: 4rem 2rem 1rem 2rem;
+  max-width: 450px;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+
+  @media (min-width: 768px) {
+    padding: 6rem 2rem 1rem 2rem;
+    max-width: 600px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1000px;
+  }
+}
+
+.nav-link {
+  font-weight: $heavyWeight;
+  list-style: none;
+  display: inline;
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: $transMed;
+    transition: $transMed;
+    color: $black;
+    line-height: 1.75rem;
+
+    &:hover {
+      color: #939393;
+
+      &::after {
+        width: 0;
+        left: 100%;
+      }
+    }
+  }
+}
+
+.btn {
+  color: $black;
+  text-decoration: none;
+  border: none;
+  background: none;
+  font-family: 'FontRegular';
+  padding: 0;
+  font-size: 1rem;
+  display: inline-block;
+  line-height: 30px;
+  position: relative;
+
+  &-link {
+    text-decoration: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
