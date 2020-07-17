@@ -20,9 +20,9 @@ exports.createPages = async ({ actions, graphql }) => {
     {
       name: "profile",
       title:
-        "This is the profile page. You can change this title in gatsby-node.js",
+        "About me",
       content:
-        "Vestibulum vestibulum finibus sem at fringilla. Morbi sed metus eu libero tincidunt pretium vel et nunc. Maecenas elementum fermentum dignissim. Cras vestibulum congue nisl, vitae euismod lectus ultricies sed. Mauris euismod fermentum ligula, a vehicula orci posuere ut. Maecenas congue sapien sit amet est pellentesque, eu rhoncus erat volutpat. Integer ut odio mattis, scelerisque magna ut, interdum urna. Aliquam sollicitudin enim sit amet bibendum mattis. Suspendisse vitae luctus sem, vitae luctus lorem. Aenean luctus risus sed rutrum vulputate. Donec vel auctor velit.",
+        "I'm a software developer based out of SF. I spend time reading, thinking and talking about cryptocurrencies, neuroscience, finance and startups. In my free time I like to play table-tennis, go scuba-diving, surfing, hiking or playing cricket. Currently, I'm in India, researching on the current scenario of tech and startups. If you'd like to reach out, let's grab ☕️.",
     },
     {
       name: "contact",

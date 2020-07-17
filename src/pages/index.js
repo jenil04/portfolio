@@ -15,7 +15,7 @@ export default ({ data }) => {
         I'm Jenil. I'm into product design, crypto, & finance.
       </h1>
       <h4 className={styles.feature}>
-        {data.allMarkdownRemark.totalCount} Featured Posts
+        Featured Projects
       </h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <article className={styles.item}>
@@ -43,7 +43,7 @@ export const query = graphql`
   query {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 3
+      limit: 4
     ) {
       totalCount
       edges {

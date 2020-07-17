@@ -130,9 +130,23 @@ export default ({ children }) => {
           padding: 0;
           display: flex;
 
+          a {
+            display: inline-block;
+            line-height: 2.5rem;
+            color: #fff;
+            text-decoration: none;
+            transition: var(--transMed);
+            position: relative;
+  
+            &:hover {
+              color: #C0C0C0;
+            }
+          }
+
 
           li {
             padding-left: 2rem;
+            padding-right: 2rem;
             margin-top: 1rem;
             margin-bottom: 1rem;
             font-size: 1.15rem;
@@ -169,8 +183,8 @@ export default ({ children }) => {
           </button>
           <nav className="nav-cont">
             <ul>
-              <ListLink to="/profile/">About me</ListLink>
-              <ListLink to="/blog/">Blog</ListLink>
+              <ListLink to="/profile/">About me</ListLink> 
+              <a href="https://jenil.substack.com/p/coming-soon">Blog</a>
             </ul>
           </nav>
         </header>
