@@ -18,9 +18,10 @@
 
 body {
   font-family: 'FontRegular';
-  color: $black;
+  color: #ffffff;
   font-size: 1.1rem;
   margin: 0;
+  background-color: $black;
 }
 
 .main-body {
@@ -52,7 +53,7 @@ body {
     position: relative;
     -webkit-transition: $transMed;
     transition: $transMed;
-    color: $black;
+    color: #ffffff;
     line-height: 1.75rem;
 
     &:hover {
@@ -67,7 +68,7 @@ body {
 }
 
 .btn {
-  color: $black;
+  color: #ffffff;
   text-decoration: none;
   border: none;
   background: none;

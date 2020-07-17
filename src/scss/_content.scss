@@ -129,7 +129,7 @@ blockquote {
   font-size: 1.25rem;
   font-family: 'Soehne';
   font-style: italic;
-  color: $darkGrey;
+  color: #fff;
 }
 
 hr {
@@ -140,7 +140,7 @@ ul,
 ol {
   li {
     &::marker {
-      font-family: $serif;
+      font-family: 'FontRegular';
       color: $primaryColor;
     }
   }

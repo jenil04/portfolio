@@ -9,10 +9,10 @@ module.exports = {
   siteMetadata: {
     title: `Jenil Thakker`,
     titleTemplate: ``,
-    siteUrl: `https://bonneville.netlify.com`,
+    siteUrl: `https://www.jenil.wtf`,
     description: `Portfolio Website`,
     author: `Jenil Thakker`,
-    authorSite: `https://www.morganbaker.dev`,
+    authorSite: `https://www.jenil.wtf`,
     twitterUsername: `@jenilkr`,
     twitterURL: `https://twitter.com/`,
     linkedInURL: `https://www.linkedin.com/in/jenilthakker`,

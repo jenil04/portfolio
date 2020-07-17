@@ -1,18 +1,17 @@
 import React from "react"
-import { DiGithubBadge } from "react-icons/di"
-import { FaTwitter, FaLinkedin } from "react-icons/fa"
+import { FiTwitter, FiLinkedin, FiGithub } from "react-icons/fi"
 
 export default [
   {
-    icon: <FaLinkedin />,
+    icon: <FiLinkedin />,
     url: "https://www.linkedin.com/in/jenilthakker",
   },
   {
-    icon: <FaTwitter />,
+    icon: <FiTwitter />,
     url: "https://www.twitter.com",
   },
   {
-    icon: <DiGithubBadge />,
+    icon: <FiGithub />,
     url: "https://github.com/jenil04",
   },
 ]

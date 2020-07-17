@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import "../scss/main.scss"
-import Logo from "../content/images/bonneville-logo.svg"
 
 export default ({ children }) => {
   const [menuStatus, menuChange] = useState(false)
@@ -34,7 +33,7 @@ export default ({ children }) => {
         width: 100%;
         bottom: 0;
         right: 0;
-        background-color: #fff;
+        background-color: #2d2828;
         z-index: 2;
         transform: translateX(100%);
         transition: var(--transMed);
@@ -77,7 +76,7 @@ export default ({ children }) => {
       grid-template-columns: 200px auto;
       grid-gap: 1rem;
       padding: 1rem 2rem;
-      background-color: #fff;
+      background-color: #2d2828;
 
       .logo-cont {
         display: flex;
@@ -85,17 +84,18 @@ export default ({ children }) => {
         justify-content: center;
         font-family: 'FontBold';
         z-index: 3;
+        color: #fff;
 
         a {
           display: inline-block;
           line-height: 2.5rem;
-          color: var(--black);
+          color: #fff;
           text-decoration: none;
           transition: var(--transMed);
           position: relative;
 
           &:hover {
-            color: var(--primaryColor);
+            color: #0000FF;
           }
         }
 
@@ -170,7 +170,7 @@ export default ({ children }) => {
           <nav className="nav-cont">
             <ul>
               <ListLink to="/profile/">About me</ListLink>
-              <ListLink href="/blog/">Blog</ListLink>
+              <ListLink to="/blog/">Blog</ListLink>
             </ul>
           </nav>
         </header>

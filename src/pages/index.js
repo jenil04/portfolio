@@ -12,7 +12,7 @@ export default ({ data }) => {
     <Layout>
       <Seo />
       <h1>
-        I'm Jenil. I design and develop software products.
+        I'm Jenil. I'm into product design, crypto, & finance.
       </h1>
       <h4 className={styles.feature}>
         {data.allMarkdownRemark.totalCount} Featured Posts

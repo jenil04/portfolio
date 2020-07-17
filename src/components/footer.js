@@ -73,13 +73,13 @@ export default ({ children }) => {
           a {
             font-weight: 300;
             text-decoration: none;
-            color: var(--black);
+            color: #fff;
             transition: var(--transMed);
           }
 
           &:hover {
             a {
-              color: var(--primaryColor);
+              color: #0000FF;
             }
           }
         }
@@ -108,13 +108,13 @@ export default ({ children }) => {
           }
 
           a {
-            color: var(--black);
+            color: #fff;
             transition: var(--transMed);
           }
 
           &:hover {
             a {
-              color: var(--primaryColor);
+              color: #0000FF;
             }
           }
         }
