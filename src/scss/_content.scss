@@ -120,7 +120,7 @@ h6 {
 }
 
 blockquote {
-  border-left: 3px solid $primaryColor;
+  border-left: 3px solid #ADD8E6;
   padding: 1rem 2rem;
   background-color: $lightGrey;
   border-radius: 0.25rem;
@@ -141,7 +141,7 @@ ol {
   li {
     &::marker {
       font-family: 'FontRegular';
-      color: $primaryColor;
+      color: #ADD8E6;
     }
   }
 }
@@ -156,7 +156,7 @@ code {
 table {
   thead {
     color: #fff;
-    background-color: $primaryColor;
+    background-color: #ADD8E6;
   }
 
   th,

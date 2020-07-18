@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { FaChevronRight } from "react-icons/fa"
 
 const Button = () => {
   return (
