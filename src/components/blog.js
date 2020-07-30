@@ -17,9 +17,9 @@ function Blog() {
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1 font-soehne">CRYPTO</h2>
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3 font-favorit">Understanding Bitcoin</h1>
-                                <p className="leading-relaxed mb-3">Looking behind the scenes.</p>
+                                <p className="leading-relaxed mb-3">An alternate approach to digital currencies and distributed systems.</p>
                                 <div className="flex items-center flex-wrap ">
-                                    <a href="https://siddharthwarrier.in/2019/10/13/whats-really-going-on/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                    <a href="https://jenil.substack.com/p/understanding-bitcoin" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
@@ -46,9 +46,9 @@ function Blog() {
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1 font-soehne">AI</h2>
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3 font-favorit">Understanding GPT-3 by OpenAI</h1>
-                                <p className="leading-relaxed mb-3">What is inside your head?</p>
+                                <p className="leading-relaxed mb-3">It can understand a Series of Photos, Calculate Inflation Rates, and Tell Us What the Moon Looks Like.</p>
                                 <div className="flex items-center flex-wrap">
-                                    <a href="https://siddharthwarrier.in/2019/10/20/a-lobe-at-a-time/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                    <a href="https://jenil.substack.com/p/understanding-gpt-3-by-openai" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
@@ -75,9 +75,9 @@ function Blog() {
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1 font-soehne">CRYPTO</h2>
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3 font-favorit">Understanding Ethereum</h1>
-                                <p className="leading-relaxed mb-3">How does the brain make decisions?</p>
+                                <p className="leading-relaxed mb-3">Getting up to speed with decentralized apps, tokens, smart contracts and wallets.</p>
                                 <div className="flex items-center flex-wrap ">
-                                    <a href="https://siddharthwarrier.in/2019/10/25/what-how-where-why/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                    <a href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
