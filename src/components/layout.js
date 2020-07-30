@@ -1,14 +1,24 @@
-import React from "react"
-import Header from "../components/header"
-import Footer from "../components/footer"
-import "typeface-lato"
-import "typeface-playfair-display"
-import "../scss/main.scss"
+import PropTypes from "prop-types";
+import React from "react";
+import Footer from './footer'
+import Header from "./header";
 
-export default ({ children }) => (
-  <>
-    <Header />
-    <main className="main-body">{children}</main>
-    <Footer />
-  </>
-)
+function Layout({ children }) {
+  return (
+    <div className="flex flex-col min-h-screen font-sans text-gray-900">
+      <Header />
+
+      <main>
+        {children}
+      </main>
+      
+      <Footer/>
+    </div>
+  );
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+
+export default Layout;

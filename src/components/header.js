@@ -1,194 +1,29 @@
-import React, { useState } from "react"
-import styled from "styled-components"
-import { useStaticQuery, Link, graphql } from "gatsby"
-import "../scss/main.scss"
+import React from "react";
 
-export default ({ children }) => {
-  const [menuStatus, menuChange] = useState(false)
-
-  const ListLink = props => (
-    <li className="nav-link">
-      <Link to={props.to}>{props.children}</Link>
-    </li>
-  )
-
-  const data = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `
-  )
-
-  const HeaderCont = styled.div`
-    @media (max-width: 767px) {
-      .nav-cont {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        bottom: 0;
-        right: 0;
-        background-color: #2d2828;
-        z-index: 2;
-        transform: translateX(100%);
-        transition: var(--transMed);
-        font-family: 'FontRegular';
-
-
-        ul {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-        }
-      }
-
-      .menu-open {
-        position: relative;
-        z-index: 2;
-
-        .nav-cont {
-          transform: translateX(0%);
-          font-family: 'FontRegular';
-
-        }
-      }
-
-      .header-cont {
-        button {
-          z-index: 3;
-          font-size: 1.15rem;
-        }
-      }
-    }
-
-    .header-cont {
-      z-index: 3;
-      position: fixed;
-      left: 0;
-      right: 0;
-      display: flex;
-      justify-content: space-between;
-      grid-template-columns: 200px auto;
-      grid-gap: 1rem;
-      padding: 1rem 2rem;
-      background-color: #2d2828;
-
-      .logo-cont {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-family: 'FontBold';
-        z-index: 3;
-        color: #fff;
-
-        a {
-          display: inline-block;
-          line-height: 2.5rem;
-          color: #fff;
-          text-decoration: none;
-          transition: var(--transMed);
-          position: relative;
-
-          &:hover {
-            color: #0000FF;
-          }
-        }
-
-        img {
-          vertical-align: middle;
-          width: 125px;
-
-          @media (min-width: 768px) {
-            width: 150px;
-          }
-        }
-
-        h2 {
-          margin: 0;
-          font-size: 1.5rem;
-
-          @media (min-width: 768px) {
-            font-size: 1.75rem;
-          }
-        }
-      }
-
-      @media (min-width: 768px) {
-        button {
-          display: none;
-        }
-      }
-      .nav-cont {
-        ul {
-          height: 100%;
-          margin: 0;
-          padding: 0;
-          display: flex;
-
-          a {
-            display: inline-block;
-            line-height: 2.5rem;
-            color: #fff;
-            text-decoration: none;
-            transition: var(--transMed);
-            position: relative;
-  
-            &:hover {
-              color: #C0C0C0;
-            }
-          }
-
-
-          li {
-            padding-left: 2rem;
-            padding-right: 2rem;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            font-size: 1.15rem;
-            font-weight: 300;
-            font-family: 'FontRegular';
-
-          }
-        }
-
-        @media (min-width: 768px) {
-          ul {
-            align-items: center;
-            li {
-              padding-left: 2rem;
-              justify-content: flex-end;
-            }
-          }
-        }
-      }
-    }
-  `
+function Header() {
 
   return (
-    <HeaderCont>
-      <div className={`${menuStatus ? "menu-open" : "menu-closed"}`}>
-        <header className="header-cont">
-          <div className="logo-cont">
-            <Link to="/">
-              Jenil Thakker
-            </Link>
-          </div>
-          <button className="btn" onClick={() => menuChange(!menuStatus)}>
-            Menu
-          </button>
-          <nav className="nav-cont">
-            <ul>
-              <ListLink to="/profile/">About me</ListLink> 
-              <a href="https://jenil.substack.com/p/coming-soon">Blog</a>
-            </ul>
-          </nav>
-        </header>
-      </div>
-    </HeaderCont>
-  )
+    <header class="text-gray-700 bg-gray-200 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto"> 
+      <a href="/#about" class="mr-5 hover:text-gray-900 font-favorit">About</a>
+      <a href="/#blog" class="mr-5 hover:text-gray-900 font-favorit">Blog</a>
+      <a href="/work" class="mr-5 hover:text-gray-900 font-favorit">Work</a>
+    </nav>
+    <a href="/" class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+      <span class="ml-3 text-xl font-soehne">Jenil Thakker</span>
+    </a>
+    <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+      <a href="/contact"><button class="inline-flex items-center bg-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded-full text-base text-white font-favorit mt-4 md:mt-0">Connect
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button></a>
+    </div>
+  </div>
+</header>
+  );
 }
+
+export default Header;
+

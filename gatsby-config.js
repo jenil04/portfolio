@@ -1,81 +1,41 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+const resolveConfig = require("tailwindcss/resolveConfig");
+const tailwindConfig = require("./tailwind.config.js");
+
+const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
-  /* Your site config here */
   siteMetadata: {
     title: `Jenil Thakker`,
-    titleTemplate: ``,
-    siteUrl: `https://www.jenil.wtf`,
-    description: `Portfolio Website`,
-    author: `Jenil Thakker`,
-    authorSite: `https://www.jenil.wtf`,
-    twitterUsername: `@jenilkr`,
-    twitterURL: `https://twitter.com/`,
-    linkedInURL: `https://www.linkedin.com/in/jenilthakker`,
-    githubURL: `https://github.com/jenil04`,
+    description: `Product, Crypto, and Fintech`,
+    author: `@jenilkr`,
   },
   plugins: [
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-eslint`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Bonneville - Gatsby Starter Theme`,
-        short_name: `Bonneville`,
+        name: `gatsby-starter-tailwind`,
+        short_name: `starter`,
         start_url: `/`,
-        background_color: `#0027EC`,
-        theme_color: `#0027EC`,
-        display: `standalone`,
-        icon: `static/favicon.ico`,
-      },
-    },
-    `gatsby-plugin-react-helmet`,
-    // `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "ENTER YOUR GA TRACKING ID HERE",
-        head: false,
+        background_color: fullConfig.theme.colors.white,
+        theme_color: fullConfig.theme.colors.teal["400"],
+        display: `minimal-ui`,
+        icon: `src/images/tailwind-icon.png`,
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-postcss`,
       options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 600,
-            },
-          },
+        postCssPlugins: [
+          require(`tailwindcss`)(tailwindConfig),
+          require(`autoprefixer`),
+          ...(process.env.NODE_ENV === `production`
+            ? [require(`cssnano`)]
+            : []),
         ],
       },
     },
-    `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `content`,
-        path: `${__dirname}/src/content`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/pages`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/content/images`,
-      },
-    },
+    `gatsby-plugin-offline`,
   ],
-}
+};
