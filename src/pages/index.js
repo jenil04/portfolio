@@ -4,6 +4,7 @@ import SEO from "../components/SEO";
 import Hero from "../components/hero";
 import Blog from "../components/blog";
 import AboutSection from "../components/aboutSection";
+import Publications from "../components/publications";
 
 function IndexPage() {
   return (
@@ -15,6 +16,7 @@ function IndexPage() {
       <Hero/>
       <AboutSection/>
       <Blog />
+      <Publications/>
     </Layout>
   );
 } 

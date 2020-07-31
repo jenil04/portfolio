@@ -8,6 +8,7 @@ function Header() {
     <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto"> 
       <a href="/#about" className="mr-5 hover:text-gray-900 font-favorit">About</a>
       <a href="/#blog" className="mr-5 hover:text-gray-900 font-favorit">Blog</a>
+      <a href="/#pub" className="mr-5 hover:text-gray-900 font-favorit">Publications</a>
       <a href="/work" className="mr-5 hover:text-gray-900 font-favorit">Work</a>
     </nav>
     <a href="/" className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">

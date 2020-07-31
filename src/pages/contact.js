@@ -17,7 +17,7 @@ function ContactPage() {
           <div class="text-center lg:w-2/3 w-full">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-soehne">Contact</h1>
             <p class="mb-8 leading-relaxed font-favorit">Feel free to reach out to me for work opportunities or collab on a side-project. I'm also looking to build a team (founding engineer) for a startup I'm working on, so if you are based in India, please 
-            send me an email (press below). Other than that, I am always looking to have intellectual conversations on tech, life or just about anything else.</p>
+            send me an email. Other than that, I am always looking to have intellectual conversations on tech, life or just about anything else.</p>
             <div class="flex justify-center">
               <button href="mailto:jenilkthakker@gmail.com" class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded-full text-lg font-favorit">Send an Email</button>
             </div>

@@ -14,6 +14,51 @@ function Work() {
         title="Projects"
       />
       <section class="text-gray-700 body-font bg-gray-200">
+      <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-soehne">Experience</h1>
+              <div class="h-1 w-20 bg-black rounded"></div>
+            </div>
+            <p class="lg:w-1/2 w-full leading-relaxed text-base font-favorit">I enjoy working on projects that involve crypto, web-development, UI/UX design, mobile and climate tech. My tech-stack 
+            React / VueJS for frontend, Node / Express, Golang or Python for backend, React Native for mobile, and AWS, Docker for DevOps / Infra.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/kg7wly2d4swx8nv3n8qh" alt="content" />
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">Feb 2020 - July 2020</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-favorit">0Chain</h2>
+                <p class="leading-relaxed text-base font-favorit">Full-Stack Development for integrating 0Chain's dStorage protocol with Ethereum.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://media-exp1.licdn.com/dms/image/C5603AQEuu2TbA1r0jg/profile-displayphoto-shrink_400_400/0?e=1601510400&v=beta&t=uoPq6o3wExtv8TfltiG8n_5AOxuQvtaDLhcj3-HoPq4" alt="content" />
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">March 2019 - Feb 2020</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-favorit">CertifyMe</h2>
+                <p class="leading-relaxed text-base font-favorit">Implemented the landing page for CertifyMe and backend for issuing certificates on Ethereum.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://logos-download.com/wp-content/uploads/2019/06/San_Jose_State_University_Logo_old.png" alt="content" />
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">Oct 2017 - May 2019</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">CoE San Jose State</h2>
+                <p class="leading-relaxed text-base font-favorit">Research assistant (Dr. Young Park) on blockchain, & cryptocurrencies. <a href="/#pub" className="text-indigo-500">Publications</a>.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://pbs.twimg.com/profile_images/970825355006103552/cT2QV3V8_400x400.jpg" alt="content" />
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">Jan 2017 - Jan 2018</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-favorit">Peer Connections</h2>
+                <p class="leading-relaxed text-base font-favorit">Computer Science tutor on data structures & Algorithms and Programming paradigms.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
@@ -92,37 +137,35 @@ function Work() {
           </div>
         </div>
 
-        <div class="flex flex-wrap w-full mb-20 container mx-auto">
-          <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-soehne">High Altitude Rocketry Program</h1>
-            <div class="h-1 w-20 bg-black rounded"></div>
-          </div>
-          <p class="lg:w-1/2 w-full leading-relaxed text-base font-favorit">HARP was a summer project conducted by the Rocketry Club at San Jose State, where the goal was to launch a rocket from the Mojave desert, and have it go 100,000 feet into the atmosphere. I joined HARP because of my passion
-          for astrophysics and aerospace engineering. Although it had an 
-          abnormal trajectory, being a part of the avionics team, I got to learn a lot about the internal mechanics and fundamentals of building a rocket from scratch. </p>
-        </div>
 
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <div class="lg:w-2/3 mx-auto">
-            <div class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
-              <img alt="gallery" class="w-full object-cover h-full object-center block absolute inset-0" src={ascent} />
-              <div class="text-center relative z-10 w-full">
+          <div class="flex w-full mb-20 flex-wrap">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4 font-soehne">High Altitude Rocketry Program</h1>
+            <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base font-favorit">HARP was a summer project conducted by the Rocketry Club at San Jose State, where the goal was to launch a rocket from the Mojave desert, and have it go 100,000 feet into the atmosphere. I joined HARP because of my passion
+          for astrophysics and aerospace engineering. Although it had an 
+          abnormal trajectory, being a part of the avionics team, I got to learn a lot about the internal mechanics and fundamentals of building a rocket from scratch.</p>
+          </div>
+          <div class="flex flex-wrap md:-m-2 -m-1">
+            <div class="flex flex-wrap w-1/2">
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://res.cloudinary.com/scalefunder/image/fetch/s--woluy0Jk--/f_auto,fl_lossy,q_auto/https://res.cloudinary.com/scalefunder/image/upload/v1523843915/San_Jose_State_University/ervyf2zf4wrnqmspqyuy.png" />
+              </div>
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src={ascent} />
+              </div>
+              <div class="md:p-2 p-1 w-full">
+                <img alt="gallery" class="w-full h-full object-cover object-center block" src={lift} />
               </div>
             </div>
-            <div class="flex flex-wrap -mx-2">
-              <div class="px-2 w-1/2">
-                <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
-                  <img alt="gallery" class="w-full object-cover h-full object-center block absolute inset-0" src={lift} />
-                  <div class="text-center relative z-10 w-full">
-                  </div>
-                </div>
+            <div class="flex flex-wrap w-1/2">
+              <div class="md:p-2 p-1 w-full">
+                <img alt="gallery" class="w-full h-full object-cover object-center block" src={pad} />
               </div>
-              <div class="px-2 w-1/2">
-                <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
-                  <img alt="gallery" class="w-full object-cover h-full object-center block absolute inset-0" src={pad} />
-                  <div class="text-center relative z-10 w-full">
-                  </div>
-                </div>
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://res.cloudinary.com/scalefunder/image/fetch/s--T2Z25Q4Z--/f_auto,fl_lossy,q_auto/https://res.cloudinary.com/scalefunder/image/upload/v1523312017/San_Jose_State_University/h7xdqt5et31jowyidj8a.jpg" />
+              </div>
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://res.cloudinary.com/scalefunder/image/fetch/s--uz9vhJsr--/f_auto,fl_lossy,q_auto/https://res.cloudinary.com/scalefunder/image/upload/v1523311934/San_Jose_State_University/uwpizejftq76wbxnrji3.jpg" />
               </div>
             </div>
           </div>
