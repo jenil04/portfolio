@@ -12,7 +12,7 @@ function Header() {
       <a href="/work" className="mr-5 hover:text-gray-900 font-favorit">Work</a>
     </nav>
     <a href="/" className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-      <span className="ml-3 text-xl font-soehne">Jenil Thakker</span>
+      <span className="ml-3 text-xl font-soehne hover:line-through">Jenil Thakker</span>
     </a>
     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
       <a href="/contact"><button className="inline-flex items-center bg-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded-full text-base text-white font-favorit mt-4 md:mt-0">Connect
