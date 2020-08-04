@@ -8,6 +8,7 @@ module.exports = {
     fontFamily: {
       'favorit': ['FavoritExtended', '-apple-system', 'BlinkMacSystemFont', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
       'soehne': ['Soehne', '-apple-system', 'BlinkMacSystemFont'],
+      'machina': ['Machina', '-apple-system', 'BlinkMacSystemFont'],
       'display': ['FavoritExtended', 'sans-serif'],
       'body': ['FavoritExtended', 'sans-serif'],
       }

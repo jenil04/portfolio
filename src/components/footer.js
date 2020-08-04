@@ -1,13 +1,14 @@
 import React from "react";
+import bgr from "./images/Clouds.jpg";
 
 function Footer() {
   return (
-    <footer className="text-gray-700 body-font bg-gray-200 font-favorit">
+    <footer className="text-gray-700 body-font" style={{backgroundImage: `url(${bgr})`}}>
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a href="/" className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <span className="ml-3 text-xl font-soehne">JT</span>
         </a>
-        <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 font-favorit">© 2020 Jenil Thakker
+        <p className="text-sm text-gray-800 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 font-machina">© 2020 Jenil Thakker
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a href="https://www.linkedin.com/in/jenilthakker/" class="ml-3 text-gray-900 hover:text-indigo-500">

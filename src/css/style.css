@@ -16,3 +16,11 @@
         font-family: 'Soehne';
         src: url('./SoehneBreitApp-Fett.ttf') format('opentype');
        }
+
+       @font-face {
+        font-family: 'Machina';
+        src: url('./NeueMachina-Regular.woff') format('woff2'),
+             url('./NeueMachina-Regular.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal; 
+      }
