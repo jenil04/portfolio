@@ -1,11 +1,10 @@
 import React from "react";
 import me from "./images/jeniltw.jpg";
-import bgr from "./images/Clouds.jpg";
 
 function AboutSection() { 
 
     return (
-        <section className="text-gray-700 body-font" id="about" style={{backgroundImage: `url(${bgr})`}}>
+        <section className="text-gray-700 body-font" id="about"> 
   <div className="container px-5 py-24 mx-auto">
     <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
     <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center font-soehne">About</h1>
@@ -14,7 +13,7 @@ function AboutSection() {
       worked as a researcher on blockchain and cryptocurrencies, and a full-stack developer at 0Chain. Currently, I am building a startup in India, and looking for founding engineers
       to join the team. In my free time, I like to read books, learn neuroscience, go on hikes, surfing or occasionally open-water diving. When in comes to sports, I am a professional 
       table tennis player, and have a passion for cricket. Feel free to reach out, or perhaps grab ☕️.</p>
-      <span className="inline-block h-1 w-10 rounded bg-black mt-8 mb-6"></span>
+      <span className="inline-block h-1 w-10 rounded bg-black mt-8 mb-6"></span> 
     </div>
   </div>
 </section>

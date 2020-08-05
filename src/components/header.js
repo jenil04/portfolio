@@ -1,16 +1,15 @@
 import React from "react";
-import bgr from "./images/Clouds.jpg";
 
 function Header() {
 
   return (
-    <header className="text-gray-700 bg-gray-200 body-font" style={{backgroundImage: `url(${bgr})`}}>
+    <header className="text-gray-700 body-font">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto"> 
-      <a href="/#about" className="mr-5 hover:text-gray-900 font-machina">About</a>
-      <a href="/#blog" className="mr-5 hover:text-gray-900 font-machina">Blog</a>
-      <a href="/#pub" className="mr-5 hover:text-gray-900 font-machina">Publications</a>
-      <a href="/work" className="mr-5 hover:text-gray-900 font-machina">Work</a>
+      <a href="/#about" className="mr-5 text-black hover:text-indigo-900 font-machina">About</a>
+      <a href="/#blog" className="mr-5 text-black hover:text-indigo-900 font-machina">Blog</a>
+      <a href="/#pub" className="mr-5 text-black hover:text-indigo-900 font-machina">Publications</a>
+      <a href="/work" className="mr-5 text-black hover:text-indigo-900 font-machina">Work</a>
     </nav>
     <a href="/" className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
       <span className="ml-3 text-xl font-soehne hover:line-through">Jenil Thakker</span>

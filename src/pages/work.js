@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/SEO";
-import bgr from "../components/images/Clouds.jpg"
 import ascent from "./harp/Ascent.jpg";
 import lift from "./harp/LiftOff.jpg";
 import pad from "./harp/Pad.jpg";
@@ -13,7 +12,7 @@ function Work() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Projects"
       />
-      <section class="text-gray-700 body-font" style={{backgroundImage: `url(${bgr})`}}>
+      <section class="text-gray-700 body-font bg-gray-100"> 
       <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
@@ -25,34 +24,34 @@ function Work() {
           </div>
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
+              <div class="p-6 rounded-lg bg-white" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/kg7wly2d4swx8nv3n8qh" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">Feb 2020 - July 2020</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">0Chain</h2>
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-machina">Feb 2020 - July 2020</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">0Chain</h2>
                 <p class="leading-relaxed text-base font-machina">Full-Stack Development for integrating 0Chain's dStorage protocol with Ethereum.</p>
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
+              <div class="p-6 rounded-lg bg-white" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://media-exp1.licdn.com/dms/image/C5603AQEuu2TbA1r0jg/profile-displayphoto-shrink_400_400/0?e=1601510400&v=beta&t=uoPq6o3wExtv8TfltiG8n_5AOxuQvtaDLhcj3-HoPq4" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">March 2019 - Feb 2020</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">CertifyMe</h2>
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-machina">March 2019 - Feb 2020</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">CertifyMe</h2>
                 <p class="leading-relaxed text-base font-machina">Implemented the landing page for CertifyMe and backend for issuing certificates on Ethereum.</p>
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
+              <div class="p-6 rounded-lg bg-white" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://logos-download.com/wp-content/uploads/2019/06/San_Jose_State_University_Logo_old.png" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">Oct 2017 - May 2019</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">CoE San Jose State</h2>
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-machina">Oct 2017 - May 2019</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">CoE San Jose State</h2>
                 <p class="leading-relaxed text-base font-machina">Research assistant (Dr. Young Park) on blockchain, & cryptocurrencies. <a href="/#pub" className="text-indigo-500">Publications</a>.</p>
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
+              <div class="p-6 rounded-lg bg-white" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://pbs.twimg.com/profile_images/970825355006103552/cT2QV3V8_400x400.jpg" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">Jan 2017 - Jan 2018</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">Peer Connections</h2>
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-machina">Jan 2017 - Jan 2018</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">Peer Connections</h2>
                 <p class="leading-relaxed text-base font-machina">Computer Science tutor on data structures & Algorithms and Programming paradigms.</p>
               </div>
             </div>
@@ -70,7 +69,7 @@ function Work() {
           </div>
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
+              <div class="p-6 rounded-lg bg-white" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://ethglobal.s3.amazonaws.com/rec2NdDATOzh1SRsY/Slide1.SVG" alt="content" />
                 <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">React, MongoDB, Express, NodeJS</h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">Pirate $HIP</h2>
@@ -78,7 +77,7 @@ function Work() {
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
+              <div class="p-6 rounded-lg bg-white" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://media.licdn.com/dms/image/C4E1BAQEds9ZmrtQLtQ/company-background_10000/0?e=2159024400&v=beta&t=YDNogujP0Im1Z5bfK4Z7CxQDAHwwwJumk_EfU57hD2A" alt="content" />
                 <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">NodeJS</h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">DPoS</h2>
@@ -86,7 +85,7 @@ function Work() {
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
+              <div class="p-6 rounded-lg bg-white" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://miro.medium.com/max/1152/1*nXmnx7Fx4wfwqWv2JdrHrw.png" alt="content" />
                 <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">Solidity</h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">Token Reward Protocol</h2>
@@ -94,7 +93,7 @@ function Work() {
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
+              <div class="p-6 rounded-lg bg-white" style={{boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)"}}>
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://raw.githubusercontent.com/0chain/ethereum/master/src/images/0chain-readme.png" alt="content" />
                 <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">React, Solidity</h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">Decentralized Storage</h2>

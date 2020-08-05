@@ -2,11 +2,10 @@ import React from "react";
 import ai from "./images/ai.png";
 import btc from "./images/btc.jpg";
 import eth from "./images/eth.png";
-import bgr from "./images/Clouds.jpg";
 
 function Blog() {
     return (
-        <section id="blog" className="text-gray-700 body-font" style={{backgroundImage: `url(${bgr})`}}>
+        <section id="blog" className="text-gray-700 body-font">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 font-soehne">Blog</h1>
