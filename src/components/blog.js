@@ -55,7 +55,7 @@ function Blog() {
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3 font-machina">Understanding Ethereum</h1>
                                 <p className="leading-relaxed mb-3 font-machina">Getting up to speed with decentralized apps, tokens, smart contracts and wallets.</p>
                                 <div className="flex items-center flex-wrap ">
-                                    <a href="/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 font-machina">Learn More
+                                    <a href="https://jenil.substack.com/p/understanding-ethereum" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 font-machina">Learn More
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
