@@ -12,7 +12,6 @@ function Hero() {
                     to reach out to me.</h2>
                     <div class="flex justify-center"> 
                         <a href="mailto:jenilkthakker@gmail.com"><button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded-full">Say 👋</button></a>
-                        <a href="https://jenil.substack.com"><button class="ml-4 inline-flex text-black bg-transparent border border-black py-2 px-6 focus:outline-none hover:bg-black hover:text-white rounded-full">Newsletter</button></a>
                     </div>
                 </div>
                 <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
