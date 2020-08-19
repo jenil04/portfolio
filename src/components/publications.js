@@ -7,6 +7,8 @@ function Publications() {
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-20">
                     <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 font-soehne">Publications</h1>
+                    <br />
+                    <p class="font-machina lg:w-2/3 mx-auto leading-relaxed text-base">Published as a Research Assistant under Dr. YoungHee Park and Dr. Thomas Austin at San Jose State University (2015-2019)</p>
                 </div>
                 <div class="flex flex-wrap -m-4">
                     <div class="p-4 md:w-1/3">

@@ -5,6 +5,7 @@ import Hero from "../components/hero";
 import Blog from "../components/blog";
 import AboutSection from "../components/aboutSection";
 import Publications from "../components/publications";
+import Startup from "../components/startup";
 
 function IndexPage() {
   return (
@@ -15,6 +16,7 @@ function IndexPage() {
       />
       <Hero/>
       <AboutSection/>
+      <Startup/>
       <Blog />
       <Publications/>
     </Layout>
