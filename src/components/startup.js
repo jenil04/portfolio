@@ -18,7 +18,7 @@ function Startup() {
                         </div>
                         <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 font-soehne">Utopia</h2>
                         <p class="leading-relaxed text-base font-machina">A 12-week online education program offering micro-degrees in courses like web-development, data science, neuroscience, psychology, blockchain and many more.</p>
-                        <a href="https://utopia.so"></a><button class="flex mx-auto mt-6 text-white bg-black border-0 py-2 px-5 focus:outline-none hover:bg-gray-900 rounded-full font-machina">Learn more</button>
+                        <a href="https://utopia.so"><button class="flex mx-auto mt-6 text-white bg-black border-0 py-2 px-5 focus:outline-none hover:bg-gray-900 rounded-full font-machina shadow-lg">Learn more</button></a>
                     </div>
                     <div class="sm:w-1/2 mb-10 px-4">
                         <div class="rounded-lg h-64 overflow-hidden" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
@@ -26,7 +26,7 @@ function Startup() {
                         </div>
                         <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 font-soehne">Urth</h2>
                         <p class="leading-relaxed text-base font-machina">Urth offers therapy online, with 1:1 sessions or group sessions, with guided meditation. Our unique iterative process involves consultations with a neurologist, psychologist and a psychiatrist.</p>
-                        <a href="https://urth.club"><button class="flex mx-auto mt-6 text-white bg-black border-0 py-2 px-5 focus:outline-none hover:bg-gray-900 rounded-full font-machina">Learn more</button></a>
+                        <a href="https://urth.club"><button class="flex mx-auto mt-6 text-white bg-black border-0 py-2 px-5 focus:outline-none hover:bg-gray-900 rounded-full font-machina shadow-lg">Learn more</button></a>
                     </div>
                 </div>
             </div>

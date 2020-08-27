@@ -11,11 +11,11 @@ function Hero() {
                     <h2 class="mb-8 leading-relaxed text-lg text-gray-800">I am a full-stack developer based out of San Francisco (Currently in India). For collaborations, feel free
                     to reach out to me.</h2>
                     <div class="flex justify-center"> 
-                        <a href="mailto:jenilkthakker@gmail.com"><button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded-full">Say 👋</button></a>
+                        <a href="mailto:jenilkthakker@gmail.com"><button class="inline-flex text-white bg-black border-0 py-2 px-6 shadow-lg focus:outline-none hover:bg-gray-800 rounded-full">Say 👋</button></a>
                     </div>
                 </div>
                 <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img class="object-cover object-center rounded" alt="hero"  height="400px" width="400px" src={hero} style={{filter: "grayscale(100%)"}}/>
+                    <img class="object-cover object-center rounded shadow-xl" alt="hero"  height="400px" width="400px" src={hero} style={{filter: "grayscale(100%)"}}/>
                 </div>
             </div>
         </section>

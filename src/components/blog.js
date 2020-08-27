@@ -12,7 +12,7 @@ function Blog() {
                     <div class="md:w-3/5 md:pl-6">
                         <p class="leading-relaxed text-base font-machina">Understanding basic concepts of economics, game theory, crypto and sharpening financial literacy is increasingly significant in today’s digital world. In the understanding newsletter, I write about the building blocks of these essential concepts.</p>
                         <div class="flex md:mt-4 mt-6">
-                        <a href="https://jenil.substack.com/embed"><button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded-full font-machina">Newsletter</button></a>
+                        <a href="https://jenil.substack.com/embed"><button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 shadow-lg rounded-full font-machina">Newsletter</button></a>
                         </div>
                     </div>
                 </div>
