@@ -7,9 +7,9 @@ function Startup() {
         <section class="text-gray-700 body-font">
             <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 font-soehne">Current Work</h1>
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 font-soehne">Current <span class="text-red-600">work</span></h1>
                     <br />
-                    <p class="font-machina lg:w-2/3 mx-auto leading-relaxed text-base">Founder and CEO at Urth and Utopia (YC W21). We're looking for people who can help us with growth, if you're interested, email below.</p>
+                    <p class="font-machina text-gray-800 text-lg lg:w-2/3 mx-auto leading-relaxed text-base">Founder and CEO at Urth and Utopia (YC W21). We're looking for people who can help us with growth, if you're interested, email below.</p>
                 </div>
                 <div class="flex flex-wrap -mx-4 -mb-10 text-center">
                     <div class="sm:w-1/2 mb-10 px-4">
