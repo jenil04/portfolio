@@ -12,11 +12,11 @@ function Header() {
       <a href="/#pub" className="mr-5 text-black hover:text-red-600 text-lg font-machina">Publications</a>
       <Link to="/work/" className="mr-5 text-black hover:text-red-600 text-lg font-machina">Work</Link>
     </nav>
-    <a href="/" className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-      <span className="ml-3 text-2xl font-soehne text-red-600 hover:line-through">Jenil Thakker</span>
+    <a href="/" className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0">
+      <span className="ml-3 text-lg font-soehne text-red-600 hover:line-through">JENIL THAKKER</span>
     </a>
     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-      <Link to="/contact/"><button className="inline-flex items-center shadow-lg bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded-full text-base text-white font-machina mt-4 md:mt-0">Contact
+      <Link to="/contact/"><button className="inline-flex items-center shadow-lg bg-black border-0 py-2 px-4 focus:outline-none hover:bg-white hover:text-black border border-black rounded-full text-base text-white font-machina mt-4 md:mt-0">Contact
         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
         </svg>

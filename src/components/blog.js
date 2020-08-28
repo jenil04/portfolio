@@ -8,11 +8,11 @@ function Blog() {
         <section id="blog" className="body-font">
             <div className="container px-5 py-24 mx-auto">
                 <div class="container px-5 py-24 mx-auto flex flex-wrap">
-                    <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5 font-soehne">Understanding with <span class="text-red-600">Jenil</span></h2>
+                    <h2 class="sm:text-3xl text-2xl text-black font-medium title-font mb-2 md:w-2/5 font-soehne">Understanding with <span class="text-red-600">Jenil</span></h2>
                     <div class="md:w-3/5 md:pl-6">
                         <p class="leading-relaxed text-base font-machina text-gray-800 text-lg">Understanding basic concepts of economics, game theory, crypto and sharpening financial literacy is increasingly significant in today’s digital world. In the understanding newsletter, I write about the building blocks of these essential concepts.</p>
                         <div class="flex md:mt-4 mt-6">
-                            <a href="https://jenil.substack.com/embed"><button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 shadow-lg rounded-full font-machina">Newsletter</button></a>
+                            <a href="https://jenil.substack.com/embed"><button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-black border border-black shadow-lg rounded-full font-machina">Newsletter</button></a>
                         </div>
                     </div>
                 </div>

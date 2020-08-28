@@ -4,6 +4,7 @@ import SEO from "../components/SEO";
 import ascent from "./harp/Ascent.jpg";
 import lift from "./harp/LiftOff.jpg";
 import pad from "./harp/Pad.jpg";
+import { Link } from "gatsby";
 
 function Work() {
   return (
@@ -16,7 +17,7 @@ function Work() {
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-soehne">Experience</h1>
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-black font-soehne">Experience</h1>
               <div class="h-1 w-20 bg-red-600 rounded"></div>
             </div>
             <p class="lg:w-1/2 w-full leading-relaxed text-base font-machina">I enjoy working on projects that involve crypto, web-development, UI/UX design, mobile and climate tech. My tech-stack
@@ -24,36 +25,36 @@ function Work() {
           </div>
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg bg-white" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
-                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/kg7wly2d4swx8nv3n8qh" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-machina">Feb 2020 - July 2020</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">0Chain</h2>
+              <Link to="https://0chain.net"><div class="p-6 rounded-lg bg-white shadow-xl hover:shadow-2xl">
+                <img class="h-40 rounded ml-8 object-cover object-center mb-6" src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/kg7wly2d4swx8nv3n8qh" alt="content" />
+                <h3 class="tracking-widest text-red-600 text-sm title-font font-machina">Feb 2020 - July 2020</h3>
+                <h2 class="text-lg text-black font-medium title-font mb-4 font-soehne">0Chain</h2>
                 <p class="leading-relaxed text-base font-machina">Full-Stack Development for integrating 0Chain's dStorage protocol with Ethereum.</p>
-              </div>
+              </div></Link>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg bg-white" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
-                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://media-exp1.licdn.com/dms/image/C5603AQEuu2TbA1r0jg/profile-displayphoto-shrink_400_400/0?e=1601510400&v=beta&t=uoPq6o3wExtv8TfltiG8n_5AOxuQvtaDLhcj3-HoPq4" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-machina">March 2019 - Feb 2020</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">CertifyMe</h2>
+            <Link to="https://cs-room.com"><div class="p-6 rounded-lg bg-white shadow-xl hover:shadow-2xl">
+                <img class="h-40 rounded ml-8 object-cover object-center mb-6" src="https://media-exp1.licdn.com/dms/image/C5603AQEuu2TbA1r0jg/profile-displayphoto-shrink_400_400/0?e=1601510400&v=beta&t=uoPq6o3wExtv8TfltiG8n_5AOxuQvtaDLhcj3-HoPq4" alt="content" />
+                <h3 class="tracking-widest text-red-600 text-sm font-machina">March 2019 - Feb 2020</h3>
+                <h2 class="text-lg text-black mb-4 font-soehne">CSROOM</h2>
                 <p class="leading-relaxed text-base font-machina">Implemented the landing page for CertifyMe and backend for issuing certificates on Ethereum.</p>
-              </div>
+              </div></Link>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg bg-white" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
-                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://logos-download.com/wp-content/uploads/2019/06/San_Jose_State_University_Logo_old.png" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-machina">Oct 2017 - May 2019</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">CoE San Jose State</h2>
+            <Link to="https://sjsu.edu"><div class="p-6 rounded-lg bg-white shadow-xl hover:shadow-2xl">
+                <img class="h-36 rounded object-cover object-center mb-6" src="https://logos-download.com/wp-content/uploads/2019/06/San_Jose_State_University_Logo_old.png" alt="content" />
+                <h3 class="tracking-widest text-red-600 text-sm font-machina">Oct 2017 - May 2019</h3>
+                <h2 class="text-lg text-black mb-4 font-soehne">San Jose State University</h2>
                 <p class="leading-relaxed text-base font-machina">Research assistant (Dr. Young Park) on blockchain, & cryptocurrencies. <a href="/#pub" className="text-indigo-500">Publications</a>.</p>
-              </div>
+              </div></Link>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg bg-white" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
-                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://pbs.twimg.com/profile_images/970825355006103552/cT2QV3V8_400x400.jpg" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-machina">Jan 2017 - Jan 2018</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">Peer Connections</h2>
+            <Link to="https://peerconnections.sjsu.edu"><div class="p-6 rounded-lg bg-white shadow-xl hover:shadow-2xl">
+                <img class="h-40 rounded ml-8 object-cover object-center mb-6" src="https://pbs.twimg.com/profile_images/970825355006103552/cT2QV3V8_400x400.jpg" alt="content" />
+                <h3 class="tracking-widest text-red-600 text-sm font-machina">Jan 2017 - Jan 2018</h3>
+                <h2 class="text-lg text-black mb-4 font-soehne">Peer Connections</h2>
                 <p class="leading-relaxed text-base font-machina">Computer Science tutor on data structures & Algorithms and Programming paradigms.</p>
-              </div>
+              </div></Link>
             </div>
           </div>
         </div>
@@ -64,41 +65,41 @@ function Work() {
               <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-soehne">Projects</h1>
               <div class="h-1 w-20 bg-red-600 rounded"></div>
             </div>
-            <p class="lg:w-1/2 w-full leading-relaxed text-base font-machina">When I was an undergraduate at San Jose State, I got bit by the bitcoin bug, which eventually led me to research a lot more into blockchain, crypto, decentralized finance and crypto-economics.
-            In the past, I've worked on various products in the crypto space and even won a hackathon sponsored by 0Chain. To explore more of my projects, feel free to check out my <a href="https://github.com/jenil04"><span className="text-indigo-500">GitHub</span></a>.</p>
+            <p class="lg:w-1/2 w-full leading-relaxed text-base font-machina">When I was an undergraduate at San Jose State, I got bit by the bitcoin bug, which eventually led me to research a lot more into blockchain, crypto, game theory, decentralized finance and cryptoeconomics.
+            In the past, I've worked on various products in the crypto space and even won a hackathon sponsored by 0Chain. To explore more of my projects, feel free to check out my <a href="https://github.com/jenil04"><span className="text-red-600">GitHub</span></a>.</p>
           </div>
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg bg-white" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
+            <Link to="https://github.com/carboclan/hip"><div class="p-6 rounded-lg bg-white shadow-xl hover:shadow-2xl">
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://ethglobal.s3.amazonaws.com/rec2NdDATOzh1SRsY/Slide1.SVG" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">React, MongoDB, Express, NodeJS</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">Pirate $HIP</h2>
-                <p class="leading-relaxed text-base font-machina">Earn founder's equity in a flash with an option to "cop out" to CASH.</p>
-              </div>
+                <h3 class="text-red-600 text-sm font-machina">React, MongoDB, Express, NodeJS</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">Pirate $HIP</h2>
+                <p class="leading-relaxed text-base font-machina">Earn founder's equity via flash investments or raise capital, with an option to cop out to cash.</p>
+              </div></Link>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg bg-white" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
-                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://media.licdn.com/dms/image/C4E1BAQEds9ZmrtQLtQ/company-background_10000/0?e=2159024400&v=beta&t=YDNogujP0Im1Z5bfK4Z7CxQDAHwwwJumk_EfU57hD2A" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">NodeJS</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">DPoS</h2>
-                <p class="leading-relaxed text-base font-machina">Delegated Proof-of-Democracy: a DPoS based consensus protocol for permissioned blockchain.</p>
-              </div>
+            <Link to="https://github.com/jenil04/dpos"><div class="p-6 rounded-lg bg-white shadow-xl hover:shadow-2xl">
+                <img class="h-32 rounded w-full object-cover object-center mb-6" src="https://download.logo.wine/logo/Ethereum/Ethereum-Logo.wine.png" alt="content" />
+                <h3 class="text-red-600 text-sm font-medium title-font font-machina">NodeJS</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">DPoS</h2>
+                <p class="leading-relaxed text-base font-machina">Delegated Proof-of-Democracy: a DPoS based consensus protocol for a permissioned blockchain simulating a government.</p>
+              </div></Link>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg bg-white" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
-                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://miro.medium.com/max/1152/1*nXmnx7Fx4wfwqWv2JdrHrw.png" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">Solidity</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">Token Reward Protocol</h2>
+            <Link to="https://github.com/jenil04/token-reward-protocol"><div class="p-6 rounded-lg bg-white shadow-xl hover:shadow-2xl">
+                <img class="rounded object-cover object-center mb-6" src="https://miro.medium.com/proxy/1*Xm6YwkKVehngYSXJYmk24A.png" alt="content" style={{width: "300px", height: "160px"}}/>
+                <h3 class="text-red-600 text-sm font-machina">Solidity</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">Token Reward Protocol</h2>
                 <p class="leading-relaxed text-base font-machina">IEEE Publication: A Model for Free Blockchain Transactions through Token Locking on Ethereum.</p>
-              </div>
+              </div></Link>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="p-6 rounded-lg bg-white" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
-                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://raw.githubusercontent.com/0chain/ethereum/master/src/images/0chain-readme.png" alt="content" />
-                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font font-soehne">React, Solidity</h3>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-machina">Decentralized Storage</h2>
+            <Link to="https://github.com/0chain/ethereum"><div class="p-6 rounded-lg bg-white shadow-xl hover:shadow-2xl">
+                <img class="h-40 rounded ml-8 object-cover object-center mb-6" src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/kg7wly2d4swx8nv3n8qh" alt="content" />
+                <h3 class="text-red-600 text-sm font-medium title-font font-machina">React, Solidity</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4 font-soehne">Decentralized Storage</h2>
                 <p class="leading-relaxed text-base font-machina">The goal is to create a dApp that stores 0Chain's file metadata as a proof on Ethereum.</p>
-              </div>
+              </div></Link>
             </div>
           </div>
         </div>
