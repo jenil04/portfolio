@@ -18,7 +18,7 @@ function Blog() {
                 </div>
                 <div className="flex flex-wrap -m-4">
                     <div className="p-4 md:w-1/3">
-                        <div className="h-full rounded-lg overflow-hidden" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
+                        <div className="h-full rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
                             <img className="object-cover object-center rounded" alt="blog" src={btc} style={{ filter: "grayscale(100%)" }} />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1 font-soehne">CRYPTO</h2>
@@ -36,7 +36,7 @@ function Blog() {
                         </div>
                     </div>
                     <div className="p-4 md:w-1/3">
-                        <div className="h-full rounded-lg overflow-hidden" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
+                        <div className="h-full rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
                             <img className="object-cover object-center rounded" alt="blog" src={defi} style={{ filter: "grayscale(100%)" }} />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1 font-soehne">CRYPTO</h2>
@@ -54,7 +54,7 @@ function Blog() {
                         </div>
                     </div>
                     <div className="p-4 md:w-1/3">
-                        <div className="h-full rounded-lg overflow-hidden" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)" }}>
+                        <div className="h-full rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
                             <img className="object-cover object-center rounded" alt="blog" src={eth} style={{ filter: "grayscale(100%)" }} />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1 font-soehne">CRYPTO</h2>

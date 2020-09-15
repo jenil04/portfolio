@@ -11,7 +11,6 @@ function Hero() {
                     <h1 class="sm:text-4xl text-3xl mb-4 text-black font-soehne">Interested in {" "}
                         <TextLoop interval={1500}>
                             <span class="text-red-600">Crypto</span>
-                            <span class="text-red-600">Education</span>
                             <span class="text-red-600">FinTech</span>
                             <span class="text-red-600">Healthcare</span>
                         </TextLoop>
@@ -23,14 +22,14 @@ function Hero() {
                             <a href="https://www.linkedin.com/in/jenilthakker/" >
                                 <FaLinkedinIn class="hover:text-indigo-600" style={{ height: "30px", width: "30px" }} />
                             </a>
-                            <a href="https://twitter.com/jenilkr" class="ml-3">
+                            <a href="https://twitter.com/0xjenil" class="ml-3">
                                 <FaTwitter class="hover:text-blue-600" style={{ height: "30px", width: "30px" }} />
                             </a>
                             <a href="https://www.instagram.com/jenil_thakker/?hl=en" class="ml-3">
                                 <FaInstagram class="hover:text-pink-600" style={{ height: "30px", width: "30px" }} />
                             </a>
                             <a href="https://github.com/jenil04" class="ml-3">
-                                <FaGithub class="hover:text-gray-700 hover:shadow-lg" style={{ height: "30px", width: "30px" }} />
+                                <FaGithub class="hover:text-green-700 hover:shadow-lg" style={{ height: "30px", width: "30px" }} />
                             </a>
                         </span>
                     </div>
