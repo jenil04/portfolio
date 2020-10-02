@@ -1,5 +1,5 @@
 import React from "react";
-import urth from "./images/Urth.png";
+import urth from "./images/urth.png";
 
 function Startup() {
     return (
@@ -15,7 +15,7 @@ function Startup() {
                         <div class="rounded-lg h-64 overflow-hidden shadow-lg">
                             <img alt="content" class="object-cover object-center h-full w-full" src={urth}/>
                         </div>
-                        <h2 class="title-font text-2xl font-medium text-black mt-6 mb-3 font-soehne">Urth</h2>
+                        <h2 class="title-font text-2xl font-medium text-black mt-6 mb-3 font-soehne">URTH</h2>
                         <p class="leading-relaxed text-base text-lg font-machina">An online, on-demand, specialized therapy with our team of clinical psychologists, psychiatrists and neurologists.</p>
                         <a href="https://urth.club"><button class="flex mx-auto mt-6 text-white bg-black border-0 py-2 px-5 focus:outline-none hover:bg-white hover:text-black border border-black rounded-full font-machina shadow-lg">Learn more</button></a>
                     </div>
