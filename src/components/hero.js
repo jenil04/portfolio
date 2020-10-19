@@ -12,11 +12,10 @@ function Hero() {
                         <TextLoop interval={1500}>
                             <span class="text-red-600">Crypto</span>
                             <span class="text-red-600">FinTech</span>
-                            <span class="text-red-600">Healthcare</span>
+                            <span class="text-red-600">EdTech</span>
                         </TextLoop>
-        </h1>
-                    <h2 class="mb-8 leading-relaxed text-lg text-gray-800">I am a full-stack developer based out of San Francisco (Currently in India). For collaborations, feel free
-                    to reach out to me.</h2>
+                    </h1>
+                    <h2 class="mb-8 leading-relaxed text-lg text-black">I am a full-stack developer based out of San Francisco (Currently in India). If you'd like me to build you a landing page for you our your company, buy me a coffee below..</h2>
                     <div class="flex justify-center">
                         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                             <a href="https://www.linkedin.com/in/jenilthakker/" >
@@ -31,6 +30,11 @@ function Hero() {
                             <a href="https://github.com/jenil04" class="ml-3">
                                 <FaGithub class="hover:text-green-700 hover:shadow-lg" style={{ height: "30px", width: "30px" }} />
                             </a>
+                        </span>
+                    </div>
+                    <div class="flex justify-center mt-8">
+                        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                            <a href="https://www.buymeacoffee.com/jenil" target="_blank" rel="noreferrer"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-black.png" alt="Buy Me A Coffee" class="h-20 w-64" /></a>
                         </span>
                     </div>
                 </div>
