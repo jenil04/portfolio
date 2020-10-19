@@ -15,7 +15,7 @@ function Hero() {
                             <span class="text-red-600">EdTech</span>
                         </TextLoop>
                     </h1>
-                    <h2 class="mb-8 leading-relaxed text-lg text-black">I am a full-stack developer based out of San Francisco (Currently in India). If you'd like me to build you a landing page for you our your company, buy me a coffee below..</h2>
+                    <h2 class="mb-8 leading-relaxed text-lg text-black">I am a full-stack developer based out of San Francisco (Currently in India). If you'd like me to build you a landing page for you our your company, you can buy me a coffee below.</h2>
                     <div class="flex justify-center">
                         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                             <a href="https://www.linkedin.com/in/jenilthakker/" >
