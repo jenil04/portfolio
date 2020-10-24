@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "Portfolio",
+  "description": "Jenil's Portfolio",
   "version": "4.0.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "author": "Jenil Thakker",
   "dependencies": {
     "gatsby": "2.24.11",
     "gatsby-plugin-manifest": "2.4.21",

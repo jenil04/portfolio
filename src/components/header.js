@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 function Header() {
 
   return (
-    <header className="body-font">
+    <header>
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto"> 
       <a href="/#about" className="mr-5 text-black hover:text-red-600 text-lg font-machina">About</a>

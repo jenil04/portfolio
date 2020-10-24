@@ -4,7 +4,7 @@ import me from "./images/jeniltw.jpg";
 function AboutSection() {
 
   return (
-    <section className="body-font" id="about">
+    <section id="about">
       <div className="container px-5 py-24 mx-auto">
         <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
           <h1 className="text-3xl font-medium title-font text-black mb-12 text-center font-soehne">About</h1>
