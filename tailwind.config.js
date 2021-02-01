@@ -1,19 +1,16 @@
-// See https://tailwindcss.com/docs/configuration for details
-
 module.exports = {
-  purge: [
-    './src/**/*.js',
-  ],
+  purge: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    extend: {},
     fontFamily: {
-      'favorit': ['FavoritExtended', '-apple-system', 'BlinkMacSystemFont', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
-      'soehne': ['Soehne', '-apple-system', 'BlinkMacSystemFont'],
-      'machina': ['Machina', '-apple-system', 'BlinkMacSystemFont'],
-      'display': ['FavoritExtended', 'sans-serif'],
-      'body': ['FavoritExtended', 'sans-serif'],
-      }
+      'mono': ['Mono', '-apple-system', 'BlinkMacSystemFont'],
+      'monob': ['Monob', '-apple-system', 'BlinkMacSystemFont']
+    }
   },
   variants: {},
-  // https://github.com/tailwindcss/custom-forms
-  plugins: [require("@tailwindcss/custom-forms")],
+  plugins: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
 };
