@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 export default function Header(): JSX.Element {
   return (
-    <header className="font-mono text-black bg-white border-b-4 border-black">
+    <header className="font-mono text-black bg-white border-b-2 border-gray-400">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link href="/"><a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <span className="text-2xl uppercase">Jenil Thakker</span>
+          <span className="text-2xl">Jenil Thakker</span>
         </a></Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <Link href="https://jenil.substack.com"><a className="mr-5 text-xl hover:text-gray-900 hover:underline">Blog</a></Link>
