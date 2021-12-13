@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Mono';
-  src: url('./fonts/mono.woff2') format('woff');
+  font-family: 'Bodyf';
+  src: url('./fonts/ABCMarfa-Regular.woff2') format('woff');
 }
 
 @font-face {
-  font-family: 'Monob';
-  src: url('./fonts/monob.woff2') format('woff')
+  font-family: 'Titlef';
+  src: url('./fonts/BeatriceDisplay-Regular.woff2') format('woff')
 }

@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'mono': ['Mono', '-apple-system', 'BlinkMacSystemFont'],
-      'monob': ['Monob', '-apple-system', 'BlinkMacSystemFont']
+      't': ['Titlef', '-apple-system', 'BlinkMacSystemFont'],
+      'b': ['Bodyf', '-apple-system', 'BlinkMacSystemFont']
     }
   },
   variants: {},

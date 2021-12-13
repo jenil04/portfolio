@@ -16,24 +16,24 @@ const Meta = (props: IMetaProps) => (
       <meta name="viewport" content="width=device-width,initial-scale=1" key="viewport" />
       <link
         rel="apple-touch-icon"
-        href={`${process.env.baseUrl}/logo.png`}
+        href={`${process.env.baseUrl}/logo.svg`}
         key="apple"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href={`${process.env.baseUrl}/logo.png`}
+        href={`${process.env.baseUrl}/logo.svg`}
         key="icon32"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href={`${process.env.baseUrl}/logo.png`}
+        href={`${process.env.baseUrl}/logo.svg`}
         key="icon16"
       />
-      <link rel="icon" href={`/logo.png`} key="favicon" />
+      <link rel="icon" href={`/logo.svg`} key="favicon" />
     </Head>
     <NextSeo
       title={props.title}
