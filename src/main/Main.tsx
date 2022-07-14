@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 import Hero from '../components/Hero';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
-import Token from '../components/Token';
+import Projects from '../components/Projects';
 
 type IMainProps = {
   meta: ReactNode;
@@ -13,7 +13,7 @@ const Main = (props: IMainProps) => (
     {props.meta}
     <Header />
     <Hero />
-    <Token />
+    <Projects />
     <Footer />
   </div>
 );

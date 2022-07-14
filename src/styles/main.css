@@ -4,10 +4,30 @@
 
 @font-face {
   font-family: 'Bodyf';
-  src: url('./fonts/ABCMarfa-Regular.woff2') format('woff');
+  src: url('./fonts/Inter-Regular.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'Titlef';
-  src: url('./fonts/BeatriceDisplay-Regular.woff2') format('woff')
+  src: url('./fonts/Inter-Medium.ttf') format('opentype')
+}
+
+@font-face {
+  font-family: 'Breakf';
+  src: url('./fonts/Redaction_50-Regular.woff2') format('woff')
+}
+
+@font-face {
+  font-family: 'Breakbf';
+  src: url('./fonts/Redaction_20-Regular.woff2') format('woff')
+}
+
+@font-face {
+  font-family: 'Breakit';
+  src: url('./fonts/Redaction_50-Italic.woff2') format('woff')
+}
+
+@font-face {
+  font-family: 'Breakitb';
+  src: url('./fonts/Redaction_20-Italic.woff2') format('woff')
 }

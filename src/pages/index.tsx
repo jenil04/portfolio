@@ -7,7 +7,7 @@ const Index = () => (
     meta={(
       <Meta
         title="Jenil Thakker"
-        description="Building the future of humanity"
+        description="Building and investing in software that contributes to human progress."
       />
     )}
   />
