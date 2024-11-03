@@ -1,6 +1,6 @@
-/*!************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/global.css ***!
-  \************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@15.0.3-canary.4_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/.pnpm/next@15.0.3-canary.4_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/global.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! tailwindcss v4.0.0-alpha.13 | MIT License | https://tailwindcss.com */
 @layer theme, base, components, utilities;
 @layer theme {
@@ -551,9 +551,6 @@
   .collapse {
     visibility: collapse;
   }
-  .invisible {
-    visibility: hidden;
-  }
   .visible {
     visibility: visible;
   }
@@ -572,19 +569,7 @@
   .static {
     position: static;
   }
-  .static\/chunks\/app\/blog\/\[slug\]\/page {
-    position: static;
-  }
-  .static\/css {
-    position: static;
-  }
-  .static\/css\/ {
-    position: static;
-  }
-  .static\/webpack {
-    position: static;
-  }
-  .static\/webpack\/ {
+  .static\/ {
     position: static;
   }
   .sticky {
@@ -720,9 +705,6 @@
   .flex {
     display: flex;
   }
-  .grid {
-    display: grid;
-  }
   .hidden {
     display: none;
   }
@@ -813,12 +795,6 @@
   .flex-auto {
     flex: auto;
   }
-  .shrink {
-    flex-shrink: 1;
-  }
-  .grow {
-    flex-grow: 1;
-  }
   .table-auto {
     table-layout: auto;
   }
@@ -874,12 +850,6 @@
     :where(& > :not([hidden]) ~ :not([hidden])) {
       margin-inline-end: calc(var(--spacing-0, 0px) * var(--tw-space-x-reverse));
       margin-inline-start: calc(var(--spacing-0, 0px) * calc(1 - var(--tw-space-x-reverse)));
-    }
-  }
-  .space-x-4 {
-    :where(& > :not([hidden]) ~ :not([hidden])) {
-      margin-inline-end: calc(var(--spacing-4, 1rem) * var(--tw-space-x-reverse));
-      margin-inline-start: calc(var(--spacing-4, 1rem) * calc(1 - var(--tw-space-x-reverse)));
     }
   }
   .overflow-auto {
@@ -1313,11 +1283,6 @@
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
   }
-  .\!transition {
-    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter!important;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)!important;
-    transition-duration: 150ms!important;
-  }
   .transition {
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1333,10 +1298,6 @@
   }
   .\[xlink\:href\] {
     xlink: href;
-  }
-  .select-all {
-    -webkit-user-select: all;
-    user-select: all;
   }
   .hover\:border-b-2 {
     &:hover {
@@ -2164,28 +2125,28 @@ table {
   inherits: false;
 }
 
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[12].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"node_modules/geist/dist/sans.js","import":"","arguments":[{"src":"./fonts/geist-sans/Geist-Variable.woff2","variable":"--font-geist-sans","weight":"100 900"}],"variableName":"GeistSans"} ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@15.0.3-canary.4_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/.pnpm/next@15.0.3-canary.4_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/.pnpm/next@15.0.3-canary.4_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/font/local/target.css?{"path":"node_modules/.pnpm/geist@1.2.2_next@15.0.3-canary.4_react-dom@18.2.0_react@18.2.0__react@18.2.0_/node_modules/geist/dist/sans.js","import":"","arguments":[{"src":"./fonts/geist-sans/Geist-Variable.woff2","variable":"--font-geist-sans","weight":"100 900"}],"variableName":"GeistSans"} ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @font-face {
-font-family: '__GeistSans_ac79ff';
+font-family: 'GeistSans';
 src: url(/_next/static/media/ec1a1eae803b668e-s.p.woff2) format('woff2');
 font-display: swap;
 font-weight: 100 900;
-}@font-face {font-family: '__GeistSans_Fallback_ac79ff';src: local("Arial");ascent-override: 90.59%;descent-override: 21.66%;line-gap-override: 9.85%;size-adjust: 101.56%
-}.__className_ac79ff {font-family: '__GeistSans_ac79ff', '__GeistSans_Fallback_ac79ff'
-}.__variable_ac79ff {--font-geist-sans: '__GeistSans_ac79ff', '__GeistSans_Fallback_ac79ff'
+}@font-face {font-family: 'GeistSans Fallback';src: local("Arial");ascent-override: 90.59%;descent-override: 21.66%;line-gap-override: 9.85%;size-adjust: 101.56%
+}.__className_ac79ff {font-family: 'GeistSans', 'GeistSans Fallback'
+}.__variable_ac79ff {--font-geist-sans: 'GeistSans', 'GeistSans Fallback'
 }
 
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[12].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"node_modules/geist/dist/mono.js","import":"","arguments":[{"src":"./fonts/geist-mono/GeistMono-Variable.woff2","variable":"--font-geist-mono","adjustFontFallback":false,"fallback":["ui-monospace","SFMono-Regular","Roboto Mono","Menlo","Monaco","Liberation Mono","DejaVu Sans Mono","Courier New","monospace"],"weight":"100 900"}],"variableName":"GeistMono"} ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@15.0.3-canary.4_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/.pnpm/next@15.0.3-canary.4_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/.pnpm/next@15.0.3-canary.4_react-dom@18.2.0_react@18.2.0__react@18.2.0/node_modules/next/font/local/target.css?{"path":"node_modules/.pnpm/geist@1.2.2_next@15.0.3-canary.4_react-dom@18.2.0_react@18.2.0__react@18.2.0_/node_modules/geist/dist/mono.js","import":"","arguments":[{"src":"./fonts/geist-mono/GeistMono-Variable.woff2","variable":"--font-geist-mono","adjustFontFallback":false,"fallback":["ui-monospace","SFMono-Regular","Roboto Mono","Menlo","Monaco","Liberation Mono","DejaVu Sans Mono","Courier New","monospace"],"weight":"100 900"}],"variableName":"GeistMono"} ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @font-face {
-font-family: '__GeistMono_8a4d12';
+font-family: 'GeistMono';
 src: url(/_next/static/media/f980ec13b5b5e554.p.woff2) format('woff2');
 font-display: swap;
 font-weight: 100 900;
-}.__className_8a4d12 {font-family: '__GeistMono_8a4d12', ui-monospace, SFMono-Regular, Roboto Mono, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace
-}.__variable_8a4d12 {--font-geist-mono: '__GeistMono_8a4d12', ui-monospace, SFMono-Regular, Roboto Mono, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace
+}.__className_8a4d12 {font-family: 'GeistMono', ui-monospace, SFMono-Regular, Roboto Mono, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace
+}.__variable_8a4d12 {--font-geist-mono: 'GeistMono', ui-monospace, SFMono-Regular, Roboto Mono, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace
 }
 
