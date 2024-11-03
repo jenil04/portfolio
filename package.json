@@ -1,63 +1,26 @@
 {
-  "name": "next-js-boilerplate",
-  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "next --port 8080",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "build-stats": "ANALYZE=true npm run build",
-    "export": "next export -o dist",
-    "build-prod": "run-s clean build export",
-    "clean": "rimraf .next dist",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
+    "start": "next start"
   },
   "dependencies": {
-    "@ethersproject/providers": "^5.0.17",
-    "@walletconnect/web3-provider": "^1.3.1",
-    "authereum": "^0.1.0",
-    "cannon-es": "^0.15.1",
-    "eth-provider": "^0.5.3",
-    "ethers": "^5.0.24",
-    "next": "^10.0.1",
-    "next-seo": "^4.15.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "recharts": "^1.8.5",
-    "styled-jsx-plugin-postcss": "^3.0.2",
-    "three": "^0.124.0",
-    "three-orbit-controls": "^82.1.0",
-    "web3modal": "^1.9.2"
-  },
-  "license": "ISC",
-  "devDependencies": {
-    "@next/bundle-analyzer": "^10.0.4",
-    "@types/node": "^14.14.6",
-    "@types/react": "^16.9.56",
-    "@types/recharts": "^1.8.18",
-    "@typescript-eslint/eslint-plugin": "^4.6.1",
-    "eslint": "^7.13.0",
-    "eslint-config-airbnb-typescript": "^12.0.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.5.1",
-    "npm-run-all": "^4.1.5",
-    "postcss-preset-env": "^6.7.0",
-    "prettier": "^2.1.2",
-    "rimraf": "^3.0.2",
-    "tailwindcss": "^1.9.6",
-    "typescript": "^4.0.5"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "eslint --fix",
-      "eslint"
-    ],
-    "*.json": [
-      "prettier --write"
-    ]
+    "@tailwindcss/postcss": "4.0.0-alpha.13",
+    "@types/node": "20.11.17",
+    "@types/react": "18.2.55",
+    "@types/react-dom": "18.2.19",
+    "@vercel/analytics": "^1.1.3",
+    "@vercel/speed-insights": "^1.0.9",
+    "geist": "1.2.2",
+    "next": "^13.5.4",
+    "next-mdx-remote": "^4.4.1",
+    "postcss": "^8.4.35",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-jsx-plugin-postcss": "^4.0.1",
+    "sugar-high": "^0.6.0",
+    "tailwindcss": "4.0.0-alpha.13",
+    "typescript": "5.3.3"
   }
 }
