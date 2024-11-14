@@ -54,7 +54,7 @@ export default function Footer() {
         </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-      <a href="mailto: jenilkthakker@gmail.com" className="h-7 hover:underline">jenilkthakker@gmail.com</a>
+      <a href="mailto: jenilkthakker@gmail.com" className="h-7 hover:underline">j@jenil.com</a>
       </p>
     </footer>
   )
