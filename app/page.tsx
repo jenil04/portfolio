@@ -50,6 +50,5 @@ export default function Page() {
     </ul>
   </div>
 </section>
-
   )
 }
