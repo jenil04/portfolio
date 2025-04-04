@@ -47,7 +47,7 @@ export default function Page() {
     </ul>
   </div>
   <div className="my-8">
-    <h2 className="text-xl font-semibold mb-4">Fun</h2>
+    <h2 className="text-xl font-semibold mb-4">Other</h2>
     <ul className="list-disc list-inside space-y-2 text-neutral-900 dark:text-neutral-200">
       <li>Pro Table Tennis: Nationals, North-West India Champion.</li>
       <li>Started <a href="https://www.facebook.com/NEEDatSJSU/" target="_blank" rel="noopener noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:underline">Network for Environment & Energy Development</a>.</li>

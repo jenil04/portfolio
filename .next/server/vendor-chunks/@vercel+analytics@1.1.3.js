@@ -34,7 +34,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/.pnpm/next@14.2.0-canary.62_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/jenil/Desktop/code/portfolio/node_modules/.pnpm/@vercel+analytics@1.1.3/node_modules/@vercel/analytics/dist/react/index.js`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/jenil/Desktop/portfolio/node_modules/.pnpm/@vercel+analytics@1.1.3/node_modules/@vercel/analytics/dist/react/index.js`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -43,9 +43,9 @@ const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy
 const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/jenil/Desktop/code/portfolio/node_modules/.pnpm/@vercel+analytics@1.1.3/node_modules/@vercel/analytics/dist/react/index.js#Analytics`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/jenil/Desktop/portfolio/node_modules/.pnpm/@vercel+analytics@1.1.3/node_modules/@vercel/analytics/dist/react/index.js#Analytics`);
 
-const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/jenil/Desktop/code/portfolio/node_modules/.pnpm/@vercel+analytics@1.1.3/node_modules/@vercel/analytics/dist/react/index.js#track`);
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/jenil/Desktop/portfolio/node_modules/.pnpm/@vercel+analytics@1.1.3/node_modules/@vercel/analytics/dist/react/index.js#track`);
 
 
 /***/ })

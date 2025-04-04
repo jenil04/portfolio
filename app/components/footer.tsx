@@ -1,4 +1,4 @@
-import { XIcon, WarpcastIcon, LinkedInIcon, InstagramIcon } from './icons'
+import { XIcon, WarpcastIcon, LinkedInIcon, InstagramIcon, YouTubeIcon } from './icons'
 
 function ArrowIcon() {
   return (
@@ -54,6 +54,16 @@ export default function Footer() {
         <li>
           <a href="https://instagram.com/0xjenil" target="_blank" rel="noopener noreferrer">
             <InstagramIcon />
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://youtube.com/@0xjenil"
+          >
+            <YouTubeIcon />
           </a>
         </li>
       </ul>
