@@ -13,11 +13,15 @@ export default function Page() {
   <div className="my-8">
     <h2 className="text-xl font-semibold mb-4">Work</h2>
     <ul className="list-disc list-inside space-y-2">
-    <li>Founder & CEO at <a href="https://earnkit.com" className="text-neutral-600 dark:text-neutral-400 hover:underline">EarnKit</a>⸺infrastructure for creating onchain AI agents.</li>
+    <li>Founder & CEO at <a href="https://earnkit.com" className="text-neutral-600 dark:text-neutral-400 hover:underline">EarnKit</a>: monetization protocol for AI agents.</li>
         <ul className="list-disc list-inside ml-6 space-y-1 text-neutral-900 dark:text-neutral-200">
-          <li>Launched <a href='https://coinvise.ai' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Coinvise</a>⸺an AI agent for creating tokens & airdrops.</li>
+          <li>Launched <a href='https://docs.earnkit.com' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Earn SDK</a>: add usage-based monetization to your AI agents.</li>
+          <li>Launched <a href='https://minidev.fun' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Minidev</a>: an agent for vibecoding farcaster miniapps.</li>
+        </ul>
+        <li>Founder & CEO at <a href="https://coinvise.ai" className="text-neutral-600 dark:text-neutral-400 hover:underline">Coinvise</a>: No-code token creation and distribution tooling.</li>
+        <ul className="list-disc list-inside ml-6 space-y-1 text-neutral-900 dark:text-neutral-200">
           <li>Raised $2.6m+ from IDEO CoLab Ventures, Galaxy Digital & others.</li>
-          <li>Won <a href='https://pioneer.app/blog/pioneer-interview-jenil-thakker/' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Pioneer</a>⸺an accelerator founded by <a href="https://dcgross.com/" target="_blank" rel="noopener noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:underline">Daniel Gross</a> & <a href="https://x.com/narang_rishi" target="_blank" rel="noopener noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:underline">Rishi Narang</a>.</li>
+          <li>Won <a href='https://pioneer.app/blog/pioneer-interview-jenil-thakker/' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Pioneer</a>: an accelerator founded by <a href="https://dcgross.com/" target="_blank" rel="noopener noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:underline">Daniel Gross</a> & <a href="https://x.com/narang_rishi" target="_blank" rel="noopener noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:underline">Rishi Narang</a>.</li>
         </ul>
       <li>Published <a href="https://ieeexplore.ieee.org/document/8783004" className="text-neutral-600 dark:text-neutral-400 hover:underline">token locking reward model</a>, <a href="https://ieeexplore.ieee.org/document/9043061" className="text-neutral-600 dark:text-neutral-400 hover:underline">a threshold-based consensus algorithm</a> & <a href="https://ieeexplore.ieee.org/document/9042998" className="text-neutral-600 dark:text-neutral-400 hover:underline">secure data management for IoT devices</a>.</li>
     </ul>
