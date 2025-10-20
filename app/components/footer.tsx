@@ -1,4 +1,4 @@
-import { XIcon, WarpcastIcon, LinkedInIcon, InstagramIcon, YouTubeIcon } from './icons'
+import { XIcon, WarpcastIcon, LinkedInIcon, InstagramIcon, YouTubeIcon, ZoraIcon } from './icons'
 
 function ArrowIcon() {
   return (
@@ -36,7 +36,7 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://warpcast.com/jenil"
+            href="https://farcaster.xyz/jenil"
           >
             <WarpcastIcon />
           </a>
@@ -64,6 +64,16 @@ export default function Footer() {
             href="https://youtube.com/@0xjenil"
           >
             <YouTubeIcon />
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://zora.co/@jenil"
+          >
+            <ZoraIcon />
           </a>
         </li>
       </ul>

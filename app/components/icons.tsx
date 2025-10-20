@@ -39,3 +39,12 @@ export function YouTubeIcon() {
     </svg>
   )
 } 
+
+export function ZoraIcon() {
+  return (
+<svg width="20" height="20" viewBox="0 0 1001 1001" fill="currentColor">
+  <path d="M500.189 999.877C776.159 999.877 999.877 776.159 999.877 500.189C999.877 224.218 776.159 0.5 500.189 0.5C224.218 0.5 0.5 224.218 0.5 500.189C0.5 776.159 224.218 999.877 500.189 999.877Z"/>
+</svg>
+
+  )
+} 
