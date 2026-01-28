@@ -1,5 +1,19 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'Custom';
+  src: url('/font.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomTitle';
+  src: url('/font-title.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
@@ -31,6 +45,11 @@
 
 html {
   min-width: 360px;
+  font-family: 'Custom', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'CustomTitle', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .prose .anchor {

@@ -7,7 +7,7 @@ export default function Page() {
     Jenil Thakker
   </h1>
   <p className="mb-4 text-neutral-900 dark:text-neutral-200">
-    {`Building companies that elevate consciousness.`}
+    {`Building companies at the intersection of AI and crypto.`}
   </p>
 
   <div className="my-8">
