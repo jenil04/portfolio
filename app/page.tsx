@@ -7,12 +7,19 @@ export default function Page() {
     Jenil Thakker
   </h1>
   <p className="mb-4 text-neutral-900 dark:text-neutral-200">
-    {`Building frontier technology that gives builders superpowers.`}
+    {`Building companies that elevate consciousness.`}
   </p>
 
   <div className="my-8">
     <h2 className="text-xl font-semibold mb-4">Work</h2>
     <ul className="list-disc list-inside space-y-2">
+    <li>Built <a href="https://jenil.ai" className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Jenil AI</a>: my AI co-founder.</li>
+        <ul className="list-disc list-inside ml-6 space-y-1 text-neutral-900 dark:text-neutral-200">
+          <li>Manages marketing across 4 social accounts.</li>
+          <li>Handles sales outreach and user onboarding.</li>
+          <li>Creates strategy docs, launch plans, and investor updates.</li>
+          <li>Automates operations and systems.</li>
+        </ul>
     <li>Founder & CEO, Tokenfi Inc: tools for builders to create without limits.</li>
         <ul className="list-disc list-inside ml-6 space-y-1 text-neutral-900 dark:text-neutral-200">
           <li>Raised $2.6m+ from IDEO CoLab Ventures, Galaxy Digital & others.</li>
