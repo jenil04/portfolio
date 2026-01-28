@@ -46,10 +46,19 @@
 html {
   min-width: 360px;
   font-family: 'Custom', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'CustomTitle', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+}
+
+body {
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .prose .anchor {
