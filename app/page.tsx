@@ -13,21 +13,17 @@ export default function Page() {
   <div className="my-8">
     <h2 className="text-xl font-semibold mb-4">Work</h2>
     <ul className="list-disc list-inside space-y-2">
-    <li>Built <a href="https://jenil.ai" className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Jenil AI</a>: my AI co-founder.</li>
+    <li>Founder & CEO, Tokenfi Inc.</li>
         <ul className="list-disc list-inside ml-6 space-y-1 text-neutral-900 dark:text-neutral-200">
-          <li>Manages marketing across 4 social accounts.</li>
-          <li>Handles sales outreach and user onboarding.</li>
-          <li>Creates strategy docs, launch plans, and investor updates.</li>
-          <li>Automates operations and systems.</li>
-        </ul>
-    <li>Founder & CEO, Tokenfi Inc: tools for builders to create without limits.</li>
-        <ul className="list-disc list-inside ml-6 space-y-1 text-neutral-900 dark:text-neutral-200">
+          <li>Building <a href='https://tokens.fun' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">tokens.fun</a>: launch tokens for ideas. If demand hits, the app gets built. Revenue flows back.</li>
           <li>Raised $2.6m+ from IDEO CoLab Ventures, Galaxy Digital & others.</li>
           <li>Won <a href='https://pioneer.app/blog/pioneer-interview-jenil-thakker/' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Pioneer</a>: an accelerator founded by <a href="https://dcgross.com/" target="_blank" rel="noopener noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:underline">Daniel Gross</a> & <a href="https://x.com/narang_rishi" target="_blank" rel="noopener noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:underline">Rishi Narang</a>.</li>
-          <li>Built <a href='https://minidev.fun' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Minidev</a>: build fullstack onchain apps with natural language.</li>
-          <li>Built <a href='https://earnkit.com' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">EarnKit</a>: add monetization to apps created with Minidev.</li>
-          <li>Built <a href='https://tokens.fun' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Tokens</a>: launch tokens for apps created with Minidev.</li>
-          <li>Built <a href='https://coinvise.ai/growth' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Coinvise</a>: reward users to drive onchain growth.</li>
+          <li>Previously: <a href='https://coinvise.ai/growth' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Coinvise</a> (onchain growth), <a href='https://minidev.fun' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Minidev</a> (AI app builder), <a href='https://earnkit.com' className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">EarnKit</a> (monetization SDK).</li>
+        </ul>
+    <li>Built <a href="https://jenil.ai" className="text-neutral-600 dark:text-neutral-400 hover:underline" target="_blank" rel="noopener noreferrer">Jenil AI</a>: my AI co-founder.</li>
+        <ul className="list-disc list-inside ml-6 space-y-1 text-neutral-900 dark:text-neutral-200">
+          <li>Handles marketing, sales, strategy, and operations.</li>
+          <li>Claims protocol fees autonomously onchain.</li>
         </ul>
       <li>Published papers on<a href="https://ieeexplore.ieee.org/document/8783004" className="text-neutral-600 dark:text-neutral-400 hover:underline"> token locking</a>, <a href="https://ieeexplore.ieee.org/document/9043061" className="text-neutral-600 dark:text-neutral-400 hover:underline">a threshold-based consensus algorithm</a> & <a href="https://ieeexplore.ieee.org/document/9042998" className="text-neutral-600 dark:text-neutral-400 hover:underline">secure data management</a>.</li>
     </ul>
