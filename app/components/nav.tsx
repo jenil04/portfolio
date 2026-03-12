@@ -6,6 +6,9 @@ const navItems = {
   },
   '/blog': {
     name: 'Writing',
+  },
+  '/hiring': {
+    name: 'Hiring',
   }
 }
 
