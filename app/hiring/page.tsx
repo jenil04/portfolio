@@ -159,7 +159,7 @@ export default function HiringPage() {
           <li className="flex gap-3 items-start text-[15px] text-neutral-500 dark:text-neutral-400 leading-relaxed">
             <span className="text-neutral-400 dark:text-neutral-500 shrink-0 mt-0.5 text-sm">—</span>
             <span>
-              <strong className="text-neutral-900 dark:text-neutral-100 font-semibold">You're not primarily motivated by money.</strong> You're here because you believe in what we're building. Compensation matters, but conviction matters more.
+              <strong className="text-neutral-900 dark:text-neutral-100 font-semibold">You believe in what we're building.</strong> You're here because you see what tokens.fun can become — and you want to be the one who makes it happen. That conviction is what drives the best work.
             </span>
           </li>
           <li className="flex gap-3 items-start text-[15px] text-neutral-500 dark:text-neutral-400 leading-relaxed">
@@ -265,11 +265,10 @@ export default function HiringPage() {
               Base Salary
             </div>
             <div className="text-xl font-bold text-neutral-900 dark:text-neutral-100 tracking-tight">
-              Added after intro period
+              Monthly base from day one
             </div>
             <div className="text-[13px] text-neutral-500 dark:text-neutral-400 leading-relaxed">
-              A monthly base is added following an initial phase where we align on performance and
-              fit. We want to make sure it's working for both sides before locking in terms.
+              A fixed monthly base included in your compensation from the start. Terms are agreed on before you begin.
             </div>
           </div>
         </div>
